@@ -7,7 +7,7 @@ tagline:             The Jekyll Butler
 url:                 http://getpoole.com
 paginate:            1
 baseurl:             ""
-
+encoding:            "utf-8"
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
