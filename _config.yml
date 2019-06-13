@@ -5,9 +5,19 @@ permalink:           pretty
 title:               Darren's Blog
 tagline:             The Jekyll Butler
 url:                 2018-11-12 21:03
-paginate:            1
+paginate:            10
+paginate_path:       "page:num"
+exclude:             ["README.md"]
 baseurl:             ""
-encoding:            "utf-8"
+encoding:            utf-8
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: K's Journey
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
