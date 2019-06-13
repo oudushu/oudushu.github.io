@@ -2,7 +2,7 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
+title:               Darren's Blog
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
 paginate:            1
@@ -17,9 +17,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Darren Ou
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:             dushu.ou@gmail.com
 
 # Custom vars
 version:             2.0.0
