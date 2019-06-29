@@ -1,6 +1,6 @@
 
 ### 多任务页面底部banner出现的种类
-![WX20181112-173344.png](https://upload-images.jianshu.io/upload_images/989987-4be2270317db074c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Image_1](/media/image/ios_bottom_banners_1.png)
 ***1、handoff（接力）
 2、xxx，早上好
 3、基于您的当前位置
@@ -39,7 +39,7 @@ This is a feature suggesting which app you normally use in a certain situation. 
 ##### 用户怎么打开应用推荐
 
 
-![WX20181112-175929.png](https://upload-images.jianshu.io/upload_images/989987-69114f3c26ba5129.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Image_1](/media/image/ios_bottom_banners_2.png)
 
 1、设置 -> Siri与搜索 -> 打开 搜索建议 查询建议 锁屏建议
 2、设置 -> 隐私 -> 定位服务 -> 系统服务 -> 打开 基于位置的建议 基于位置的提醒
