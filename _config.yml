@@ -2,13 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               Darren's Blog
-tagline:             ""
-url:                 2018-11-12 21:03
-paginate:            10
-exclude:             ["README.md"]
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://getpoole.com
+paginate:            1
 baseurl:             ""
-encoding:            utf-8
 
 # Assets
 #
@@ -19,9 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Darren Ou
+  name:              Mark Otto
   url:               https://twitter.com/mdo
-  email:             dushu.ou@gmail.com
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
 
 # Gems
 gems:
