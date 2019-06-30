@@ -1,19 +1,19 @@
 ---
 layout: post
-title: SYS BOX Privacy Policy
+title: SYS BOX 隐私政策
 ---
 
-The software respects and protects the personal privacy of all service users. The software will treat such information with a high degree of diligence and due diligence. The software will not disclose or provide such information to third parties. This software will update this privacy policy from time to time. By agreeing to this software service usage agreement, you shall be deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of the software service usage agreement.
+本软件尊重并保护所有使用服务用户的个人隐私权。本软件将以高度的勤勉、审慎义务对待这些信息。本软件不会将这些信息对外披露或向第三方提供。本软件会不时更新本隐私权政策。您在同意本软件服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于本软件服务使用协议不可分割的一部分。
 
-## 1. Scope of application
-a) When you use the software, the software will automatically read the information on your phone, including but not limited to the language, region, software and hardware characteristic information and other data you use.
+## 一、适用范围
+1.在您使用本软件时，本软件会自动读取您的手机上的信息，包括但不限于您使用的语言、地区、软硬件特征信息等数据，所有信息均只用于展示而不会上传到服务器；
 
-b) For better user experience, when the software crashes, the stack information will be uploaded to the crash log analysis platform, and user privacy information will never be uploaded.
+2.为了更好的用户体验，当本软件发生崩溃时，会把崩溃时堆栈信息上传到崩溃日志分析平台，绝不会上传用户隐私信息。
 
-## 2. Use of information
-a) When you use the software, the traffic package information and application shortcut entrance you recorded will only be recorded locally, and will not be uploaded to the server;
+## 二、信息的使用
+1.在您使用本软件时，您所记录的流量套餐信息、应用快捷入口等均只会记录在本地，不会上传到服务器；
 
-b) When the software crashes, the stack information will be uploaded to the crash log analysis platform to improve the software in time to improve the user experience.
+2.当软件发生崩溃时，会把崩溃时堆栈信息上传到崩溃日志分析平台，以便能及时改进软件提升用户体验。
 
-## 3. Information disclosure
-The software will not disclose your information to an untrusted third party.
+## 三、信息披露
+本软件不会将您的信息披露给不受信任的第三方。
