@@ -10,9 +10,9 @@ date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 
 # Theme settings
 hide_title: true            # remove site heading in the header
-hide_footer: false           # hide the "previous" and "next" links at the end of each post
+hide_footer: true           # hide the "previous" and "next" links at the end of each post
 dark_theme: false            # use the dark mode as default
-dark_header: false           # keep the header dark
+dark_header: true           # keep the header dark
 dark_footer: false           # keep the footer dark
 # style: minimal             # use a simpler style inspired by the minima theme
 
@@ -23,7 +23,7 @@ navigation:                  # site navigation in the header
 
 #icons:                      # icons in the header, see http://fontawesome.com/icons
 #  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
-#  github: "https://github.com/niklasbuschmann/contrast"
+github: "https://github.com/OuDuShu"
 #  rss: "/contrast/feed.xml"
 
 comments:                    # embed disqus or isso comments
