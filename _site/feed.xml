@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-07-02T00:17:29+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darren’s Blog</title><subtitle>Really cool blog about ... something</subtitle><author><name>Darren Ou</name></author><entry><title type="html">SYS BOX Privacy Policy</title><link href="http://localhost:4000/SYS-BOX-Privacy-Policy-En/" rel="alternate" type="text/html" title="SYS BOX Privacy Policy" /><published>2019-07-01T00:00:00+08:00</published><updated>2019-07-01T00:00:00+08:00</updated><id>http://localhost:4000/SYS-BOX-Privacy-Policy-En</id><content type="html" xml:base="http://localhost:4000/SYS-BOX-Privacy-Policy-En/">&lt;p&gt;The software respects and protects the personal privacy of all service users. The software will treat such information with a high degree of diligence and due diligence. The software will not disclose or provide such information to third parties. This software will update this privacy policy from time to time. By agreeing to this software service usage agreement, you shall be deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of the software service usage agreement.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-07-02T00:39:01+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darren’s Blog</title><subtitle>Really cool blog about ... something</subtitle><author><name>Darren Ou</name></author><entry><title type="html">SYS BOX Privacy Policy</title><link href="http://localhost:4000/SYS-BOX-Privacy-Policy-En/" rel="alternate" type="text/html" title="SYS BOX Privacy Policy" /><published>2019-07-01T00:00:00+08:00</published><updated>2019-07-01T00:00:00+08:00</updated><id>http://localhost:4000/SYS-BOX-Privacy-Policy-En</id><content type="html" xml:base="http://localhost:4000/SYS-BOX-Privacy-Policy-En/">&lt;p&gt;The software respects and protects the personal privacy of all service users. The software will treat such information with a high degree of diligence and due diligence. The software will not disclose or provide such information to third parties. This software will update this privacy policy from time to time. By agreeing to this software service usage agreement, you shall be deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of the software service usage agreement.&lt;/p&gt;
 
 &lt;h2 id=&quot;1-scope-of-application&quot;&gt;1. Scope of application&lt;/h2&gt;
 &lt;p&gt;a) When you use the software, the software will automatically read the information on your phone, including but not limited to the language, region, software and hardware characteristic information and other data you use.&lt;/p&gt;
@@ -74,7 +74,7 @@
 &lt;h3 id=&quot;参考&quot;&gt;参考&lt;/h3&gt;
 &lt;p&gt;https://stackoverflow.com/questions/46039851/how-may-i-customize-app-suggestions-in-ios
 https://www.phonearena.com/news/App-suggestions-in-iOS-10-how-they-work-whats-changed-how-to-disable-them_id89219
-https://discussions.apple.com/message/30065692#30065692&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">多任务页面底部banner出现的种类 1、handoff（接力） 2、xxx，早上好 3、基于您的当前位置 4、“耳机”已连接 5、（未知。。。）</summary></entry><entry><title type="html">iOS利用Speech Kit实现语音识别</title><link href="http://localhost:4000/Speech-Kit/" rel="alternate" type="text/html" title="iOS利用Speech Kit实现语音识别" /><published>2017-12-10T00:00:00+08:00</published><updated>2017-12-10T00:00:00+08:00</updated><id>http://localhost:4000/Speech-Kit</id><content type="html" xml:base="http://localhost:4000/Speech-Kit/">&lt;p&gt;&lt;img src=&quot;/media/image/speech_kit_1.jpg&quot; alt=&quot;Siri.jpeg&quot; /&gt;&lt;/p&gt;
+https://discussions.apple.com/message/30065692#30065692&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">多任务页面底部banner出现的种类 1、handoff（接力） 2、xxx，早上好 3、基于您的当前位置 4、“耳机”已连接 5、（未知。。。）</summary></entry><entry><title type="html">iOS利用Speech Kit实现语音识别</title><link href="http://localhost:4000/iOS-Speech-Kit/" rel="alternate" type="text/html" title="iOS利用Speech Kit实现语音识别" /><published>2017-12-10T00:00:00+08:00</published><updated>2017-12-10T00:00:00+08:00</updated><id>http://localhost:4000/iOS-Speech-Kit</id><content type="html" xml:base="http://localhost:4000/iOS-Speech-Kit/">&lt;p&gt;&lt;img src=&quot;/media/image/speech_kit_1.jpg&quot; alt=&quot;Siri.jpeg&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;一前言&quot;&gt;一、前言&lt;/h2&gt;
 
@@ -267,4 +267,359 @@ https://discussions.apple.com/message/30065692#30065692&lt;/p&gt;</content><auth
 &lt;p&gt;&lt;a href=&quot;http://swift.gg/2016/09/30/siri-speech-framework/&quot;&gt;http://swift.gg/2016/09/30/siri-speech-framework/&lt;/a&gt;
 &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2016/509/&quot;&gt;https://developer.apple.com/videos/play/wwdc2016/509/&lt;/a&gt;
 &lt;a href=&quot;https://developer.nuance.com/public/Help/DragonMobileSDKReference_iOS/Getting-started.html&quot;&gt;https://developer.nuance.com/public/Help/DragonMobileSDKReference_iOS/Getting-started.html&lt;/a&gt;
-&lt;a href=&quot;https://www.raywenderlich.com/60870/building-ios-app-like-siri&quot;&gt;https://www.raywenderlich.com/60870/building-ios-app-like-siri&lt;/a&gt;&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html"></summary></entry></feed>
+&lt;a href=&quot;https://www.raywenderlich.com/60870/building-ios-app-like-siri&quot;&gt;https://www.raywenderlich.com/60870/building-ios-app-like-siri&lt;/a&gt;&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html"></summary></entry><entry><title type="html">对iOS数据安全的一次小探索</title><link href="http://localhost:4000/iOS-Security/" rel="alternate" type="text/html" title="对iOS数据安全的一次小探索" /><published>2017-03-30T00:00:00+08:00</published><updated>2017-03-30T00:00:00+08:00</updated><id>http://localhost:4000/iOS-Security</id><content type="html" xml:base="http://localhost:4000/iOS-Security/">&lt;h2 id=&quot;一主流保证数据安全的方式&quot;&gt;一、主流保证数据安全的方式&lt;/h2&gt;
+&lt;h3 id=&quot;1网络传输安全&quot;&gt;1、网络传输安全&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1.采用HTTPS通信协议&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+可防止抓包窃取、篡改传输数据，大大增加了中间人攻击的成本。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;2.对敏感数据进行签名校正&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+采用非对称加密的方式，对敏感数据使用密钥加密，到了客户端用公钥解密，验证数据一致性，防止通信过程中被篡改。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;3.采用密文传输&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+别人即使截取了传输信息，也无法看懂其中的意思。&lt;/p&gt;
+
+&lt;h3 id=&quot;2本地存储数据安全&quot;&gt;2、本地存储数据安全&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1.数据库加密&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+通过越狱设备可以很容易地把整个应用包（包括里面的数据）copy出来，这样就可以获取里面的数据库，对于没有加密的数据库就可以非常轻易地读取里面的信息，造成信息的泄漏。
+&lt;strong&gt;&lt;em&gt;数据库加密可分两个维度：1.整个数据库加密；2.对部分字段先加密再存数据库。&lt;/em&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;em&gt;对部分字段加密并不适合多字段的加密存储，容易导致加密数据太过分散，影响性能。所以推荐对整个数据库加密。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;2.KeyChain存储敏感数据&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+KeyChain是iOS系统级的存储方式，安全性无需质疑，且删除应用或者升级系统依然可以保留里面的信息。&lt;/p&gt;
+
+&lt;h3 id=&quot;3源码安全&quot;&gt;3、源码安全&lt;/h3&gt;
+
+&lt;p&gt;使用越狱设备可以很轻易地把应用砸壳，从而把源码dump下来，即使是没有太多经验的开发者也可以得到应用的类信息，包括函数名等。使用IDA等反编译工具可以看到应用的一些类名和方法名，进而可以分析功能实现的逻辑。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1.字符串混淆&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+对应用程序中使用到的字符串进行加密，保证源码被逆向后也能保护明文字符串。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;2.类名、方法名混淆&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+市面上很多iOS应用都没有混淆类名方法名，以致于很容易使用class-dump下来，从而进行hook操作，&lt;a href=&quot;http://www.jianshu.com/p/189afbe3b429&quot;&gt;一步一步实现iOS微信自动抢红包(非越狱)&lt;/a&gt;是很有趣的一个应用。&lt;a href=&quot;https://github.com/Polidea/ios-class-guard&quot;&gt;这个库&lt;/a&gt;可以混淆OC的类名、协议、属性还有方法名。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;3.程序结构混淆加密&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+对应用程序逻辑结构进行打乱混排，保证源码可读性降到最低。&lt;a href=&quot;https://github.com/obfuscator-llvm/obfuscator/&quot;&gt;可参考这个库&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;4.反调试、反注入等一些主动保护策略&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+加入第三方安全性SDK&lt;/p&gt;
+
+&lt;h2 id=&quot;二对数据库加密的研究&quot;&gt;二、对数据库加密的研究&lt;/h2&gt;
+&lt;h3 id=&quot;1主流数据库加密方式&quot;&gt;1、主流数据库加密方式&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The SQLite Encryption Extension（收费）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SQLiteEncrypt（收费）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SQLiteCrypt（收费）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SQLCipher（开源免费）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;只有SQLCipher是免费的，所以本文主要对SQLCipher进行研究。&lt;/p&gt;
+&lt;h3 id=&quot;2引入sqlcipher第三方库&quot;&gt;2、引入SQLCipher第三方库&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1.手动引入&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+请参考&lt;a href=&quot;https://www.zetetic.net/sqlcipher/ios-tutorial/&quot;&gt;官方教程&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;2.使用CocoaPods&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;pod 'FMDB/SQLCipher', '2.5'&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3sqlcipher的可行性研究&quot;&gt;3、SQLCipher的可行性研究&lt;/h3&gt;
+&lt;h4 id=&quot;1新建加密数据库&quot;&gt;1.新建加密数据库&lt;/h4&gt;
+&lt;p&gt;若没有旧数据的情况下使用很简单，只需要在FMDatabase里面的&lt;code class=&quot;highlighter-rouge&quot;&gt;-open&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;-openWithFlags:&lt;/code&gt;方法里面添加&lt;code class=&quot;highlighter-rouge&quot;&gt;[self setKey:kDatabaseEncryptKey];&lt;/code&gt;即可。
+如下图所示&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/989987-17fbeb85a0beb88f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;添加密钥&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;但是在团队协作中，如果直接修改pod仓库里面的文件，可能不好同步，下面有一个技巧，就是继承FMDatabase和FMDatabaseQueue并重载其中的方法。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;继承FMDatabase的子类需要重载以下方法&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- (BOOL)open {
+    if (_db) {
+        return YES;
+    }
+    int err = sqlite3_open([self sqlitePath], &amp;amp;_db );
+    if(err != SQLITE_OK) {
+        NSLog(@&quot;error opening!: %d&quot;, err);
+        return NO;
+    } else {
+        // 设置密钥
+        [self setKey:kDatabaseEncryptKey];
+    }
+    if (_maxBusyRetryTimeInterval &amp;gt; 0.0) {
+        // set the handler
+        [self setMaxBusyRetryTimeInterval:_maxBusyRetryTimeInterval];
+    }
+    return YES;
+}
+
+- (BOOL)openWithFlags:(int)flags {
+    if (_db) {
+        return YES;
+    }
+    int err = sqlite3_open_v2([self sqlitePath], &amp;amp;_db, flags, NULL /* Name of VFS module to use */);
+    if(err != SQLITE_OK) {
+        NSLog(@&quot;error opening!: %d&quot;, err);
+        return NO;
+    } else {
+        // 设置密钥
+        [self setKey:kDatabaseEncryptKey];
+    }
+    if (_maxBusyRetryTimeInterval &amp;gt; 0.0) {
+        // set the handler
+        [self setMaxBusyRetryTimeInterval:_maxBusyRetryTimeInterval];
+    }
+    return YES;
+}
+
+- (const char*)sqlitePath {
+    if (!_databasePath) {
+        return &quot;:memory:&quot;;
+    }
+    if ([_databasePath length] == 0) {
+        return &quot;&quot;; // this creates a temporary database (it's an sqlite thing).
+    }
+    return [_databasePath fileSystemRepresentation];
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;继承FMDatabaseQueue的子类只需要重载一个方法&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+ (Class)databaseClass {
+    return [FMEncryptDatabase class];
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;使用的时候只需要更改下面的语句&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 原：
+self.normalQueue = [FMDatabaseQueue databaseQueueWithPath:self.normalDbPath];
+// 改为：
+self.encryptQueue = [FMEncryptDatabaseQueue databaseQueueWithPath:self.encryptDbPath];
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;2加密已有数据库&quot;&gt;2.加密已有数据库&lt;/h4&gt;
+
+&lt;p&gt;加密已有数据库我已经封装成下面的方法：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
+ 加密数据库（保留原有数据库）
+ */
++ (BOOL)encryptDatabase:(NSString *)origPath toPath:(NSString *)toPath {
+    sqlite3 *db;
+    if (sqlite3_open([origPath UTF8String], &amp;amp;db) == SQLITE_OK) {
+        char *err = NULL;
+        sqlite3_exec(db, [[NSString stringWithFormat:@&quot;ATTACH DATABASE '%@' AS encrypted KEY '%@';&quot;, toPath, kDatabaseEncryptKey] UTF8String], NULL, NULL, &amp;amp;err);
+        sqlite3_exec(db, &quot;SELECT sqlcipher_export('encrypted');&quot;, NULL, NULL, &amp;amp;err);
+        sqlite3_exec(db, &quot;DETACH DATABASE encrypted;&quot;, NULL, NULL, &amp;amp;err);
+        sqlite3_close(db);
+        return err ? NO : YES;
+    } else {
+        sqlite3_close(db);
+        NSLog(@&quot;Open db failed:%s&quot;, sqlite3_errmsg(db));
+        return NO;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;这里有两点需要注意的地方：&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;1、这里必须使用全路径&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;2、加密后的queue必须同步更换为FMEncryptDatabaseQueue，不然无法读写数据&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3解密已加密数据库&quot;&gt;3.解密已加密数据库&lt;/h4&gt;
+&lt;p&gt;解密已加密的数据库已封装为以下方法：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
+ 解密数据库（保留原有数据库）
+ */
++ (BOOL)unencryptDatabase:(NSString *)origPath toPath:(NSString *)toPath {
+    sqlite3 *db;
+    if (sqlite3_open([origPath UTF8String], &amp;amp;db) == SQLITE_OK) {
+        char *err = NULL;
+        sqlite3_exec(db, [[NSString stringWithFormat:@&quot;PRAGMA key = '%@';&quot;, kDatabaseEncryptKey] UTF8String], NULL, NULL, &amp;amp;err);
+        sqlite3_exec(db, [[NSString stringWithFormat:@&quot;ATTACH DATABASE '%@' AS plaintext KEY '';&quot;, toPath] UTF8String], NULL, NULL, NULL);
+        sqlite3_exec(db, &quot;SELECT sqlcipher_export('plaintext');&quot;, NULL, NULL, &amp;amp;err);
+        sqlite3_exec(db, &quot;DETACH DATABASE plaintext;&quot;, NULL, NULL, &amp;amp;err);
+        sqlite3_close(db);
+        
+        return err ? NO : YES;
+    } else {
+        sqlite3_close(db);
+        NSLog(@&quot;Open db failed:%s&quot;, sqlite3_errmsg(db));
+        return NO;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;这里也有两点需要注意的地方：&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;1、这里必须使用全路径&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;2、解密后的queue必须同步更换为FMDatabaseQueue，不然无法读写数据&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4sqlcipher性能分析&quot;&gt;4、SQLCipher性能分析&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;本次性能分析主要从两个维度下手：
+1.对比无加密数据库和加密数据库的插入数据速度；
+2.加密已有数据的数据库耗时。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;本次测试都基于iOS10.3的iPad mini2下进行。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;1对比插入数据速度&quot;&gt;1.对比插入数据速度&lt;/h4&gt;
+&lt;p&gt;规则：对比无加密数据库和加密数据库使用事务时，在插入1w条、5w条和10w条8个字段的数据的耗时，每组数据测试5次，最后取平均值。最后的测试结果如下图所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/989987-bb2ea812ee888603.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;插入测试结果&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;结论：两者相差在4%左右，在移动设备上存储大数据的情况很少，所以我认为是完全可以接受的。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2测试加密数据库耗时&quot;&gt;2.测试加密数据库耗时&lt;/h4&gt;
+&lt;p&gt;规则：对比存储1w条、5w条和10w条数据的数据库加密的耗时，每组数据测试5次，最后取平均值。最后的测试结果如下图所示：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/989987-7bd94c957951fd08.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;加密耗时测试结果&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;结论：加密过程需要一定的时间，且跟数据库所存储的数据量有关，数据量越大耗时越长，从本次的测试结果来看，加密存储10w条数据的数据库耗时1.38s是可以接受的。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5采用sqlcipher存在的风险&quot;&gt;5、采用SQLCipher存在的风险&lt;/h3&gt;
+&lt;p&gt;1、SQLCipher依赖本地存储的字符串进行数据库的加密和解密，如果这个字符串被泄漏出去，本地的数据库依然容易被解密，进而被读取里面的信息。可采用KeyChain保存？
+ 2、加密已存储大数据的数据库会消耗一定的时间，这段时间怎么处理才能让用户无感知？加密失败了怎么处理？
+3、欢迎大家补充。。。&lt;/p&gt;
+&lt;h3 id=&quot;6本文demo&quot;&gt;6、&lt;a href=&quot;https://github.com/OuDuShu/SQLCipherDemo&quot;&gt;本文demo&lt;/a&gt;&lt;/h3&gt;</content><author><name>Darren Ou</name></author><summary type="html">一、主流保证数据安全的方式 1、网络传输安全 1.采用HTTPS通信协议 可防止抓包窃取、篡改传输数据，大大增加了中间人攻击的成本。</summary></entry><entry><title type="html">iOS 性能优化汇总</title><link href="http://localhost:4000/iOS-Performance-Optimization/" rel="alternate" type="text/html" title="iOS 性能优化汇总" /><published>2017-02-11T00:00:00+08:00</published><updated>2017-02-11T00:00:00+08:00</updated><id>http://localhost:4000/iOS-Performance-Optimization</id><content type="html" xml:base="http://localhost:4000/iOS-Performance-Optimization/">&lt;p&gt;参考：https://i.cmgine.net/archives/14896.html&lt;/p&gt;
+
+&lt;p&gt;入门：
+1、用ARC管理内存
+2、在正确的地方使用reuseIdentifier
+3、尽量吧views设置为完全不透明
+4、避免过于庞大的xib
+5、不要阻塞主线程
+6、不要在ImageView中调整图片大小，尽量使用UIImageView大小相同的图片
+7、选择正确的Collection
+Arrays: 有序的一组值。使用index来lookup很快，使用value lookup很慢， 插入/删除很慢。&lt;/p&gt;
+
+&lt;p&gt;Dictionaries: 存储键值对。 用键来查找比较快。&lt;/p&gt;
+
+&lt;p&gt;Sets: 无序的一组值。用值来查找很快，插入/删除很快。&lt;/p&gt;
+
+&lt;p&gt;8、打开gzip压缩&lt;/p&gt;
+
+&lt;p&gt;中级：
+1、重用和懒加载views
+2、Cache，缓存不大可能改变但是需要经常读取的东西（NSCache）
+3、权衡渲染方法（View？CALayer？CoreGraphics？OpenGL？）
+4、处理内存警告
+在app delegate中使用applicationDidReceiveMemoryWarning:的方法&lt;/p&gt;
+
+&lt;p&gt;在你的自定义UIViewController的子类(subclass)中覆盖didReceiveMemoryWarning&lt;/p&gt;
+
+&lt;p&gt;注册并接收 UIApplicationDidReceiveMemoryWarningNotification 的通知&lt;/p&gt;
+
+&lt;p&gt;5、重用大开销对象（如NSDateFormatter，NSCalendar）
+6、使用Sprite Sheets
+7、避免反复处理数据
+解析JSON会比XML更快一些，JSON也通常更小更便于传输。从iOS5起有了官方内建的JSON deserialization 就更加方便使用了。&lt;/p&gt;
+
+&lt;p&gt;但是XML也有XML的好处，比如使用SAX 来解析XML就像解析本地文件一样，你不需像解析json一样等到整个文档下载完成才开始解析。当你处理很大的数据的时候就会极大地减低内存消耗和增加性能。&lt;/p&gt;
+
+&lt;p&gt;8、正确设定背景图片
+使用UIColor的 colorWithPatternImage来设置背景色；&lt;/p&gt;
+
+&lt;p&gt;在view中添加一个UIImageView作为一个子View。（不使用“imageName:”）&lt;/p&gt;
+
+&lt;p&gt;9、减少使用Web特性
+10、设定Shadow Path
+view.layer.shadowPath = [[UIBezierPath bezierPathWithRect:view.bounds] CGPath];&lt;/p&gt;
+
+&lt;p&gt;11、优化UITableView
+正确使用reuseIdentifier来重用cells&lt;/p&gt;
+
+&lt;p&gt;尽量使所有的view opaque，包括cell自身&lt;/p&gt;
+
+&lt;p&gt;避免渐变，图片缩放，后台选人&lt;/p&gt;
+
+&lt;p&gt;缓存行高&lt;/p&gt;
+
+&lt;p&gt;如果cell内现实的内容来自web，使用异步加载，缓存请求结果&lt;/p&gt;
+
+&lt;p&gt;使用shadowPath来画阴影&lt;/p&gt;
+
+&lt;p&gt;减少subviews的数量&lt;/p&gt;
+
+&lt;p&gt;尽量不适用cellForRowAtIndexPath:，如果你需要用到它，只用一次然后缓存结果&lt;/p&gt;
+
+&lt;p&gt;使用正确的数据结构来存储数据&lt;/p&gt;
+
+&lt;p&gt;尽量使用rowHeight,sectionFooterHeight和sectionHeaderHeight来设定固定的高，不要请求delegate&lt;/p&gt;
+
+&lt;p&gt;12、选择正确的数据存储选项
+使用NSUerDefaults&lt;/p&gt;
+
+&lt;p&gt;使用XML, JSON, 或者 plist&lt;/p&gt;
+
+&lt;p&gt;使用NSCoding存档&lt;/p&gt;
+
+&lt;p&gt;使用类似SQLite的本地SQL数据库&lt;/p&gt;
+
+&lt;p&gt;使用 Core Data&lt;/p&gt;
+
+&lt;p&gt;进阶：
+1、加速启动时间
+2、使用Autorelease Pool
+3、选择是否缓存图片
+4、避免日期格式转换&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">参考：https://i.cmgine.net/archives/14896.html</summary></entry><entry><title type="html">iOS项目集成Reveal</title><link href="http://localhost:4000/iOS-Reveal/" rel="alternate" type="text/html" title="iOS项目集成Reveal" /><published>2016-12-21T00:00:00+08:00</published><updated>2016-12-21T00:00:00+08:00</updated><id>http://localhost:4000/iOS-Reveal</id><content type="html" xml:base="http://localhost:4000/iOS-Reveal/">&lt;p&gt;Reveal是一款UI调试工具，在iOS开发过程中可查看UI的层级关系并可动态修改界面，可以有效提高开发效率。这篇文章主要介绍如何把Reveal集成到实际的项目中。&lt;/p&gt;
+
+&lt;p&gt;一、Reveal主要有两种集成方式：
+1、framework集成（可忽略，直接看第二点）
+（1）打开Reveal，选择 Reveal –&amp;gt; Help –&amp;gt; Show Reveal Library in Finder –&amp;gt; iOS Library&lt;/p&gt;
+
+&lt;p&gt;（2）把Reveal.framework导入到项目中&lt;/p&gt;
+
+&lt;p&gt;（3）配置Target，Target –&amp;gt; Build Setting –&amp;gt; Other Linker Flags 添加以下4项：&lt;/p&gt;
+
+&lt;p&gt;（4）运行项目 –&amp;gt; 打开Reveal –&amp;gt; 选择连接设备&lt;/p&gt;
+
+&lt;p&gt;项目的UI图层就可以出来了。&lt;/p&gt;
+
+&lt;p&gt;这种方法有几个弊端：1、需要配置项目的Build Setting，修改Other Linker Flags，多人协作开发的话如果有人没有配置就会编译出错；2、如果不留意容易打包的时候把Reveal的framework也打包进去，增大包的体积。&lt;/p&gt;
+
+&lt;p&gt;以下推荐另一种集成方法。&lt;/p&gt;
+
+&lt;p&gt;2、LLDB集成（推荐！！）
+（1）运行项目 –&amp;gt; 点击Pause program execution。&lt;/p&gt;
+
+&lt;p&gt;（2）在LLDB依次输入以下两条命令&lt;/p&gt;
+
+&lt;h1 id=&quot;expr-classnsclassfromstringibarevealloader--nil--voiddlopenapplicationsrevealappcontentssharedsupportios-librarieslibrevealdylib-0x2--void0&quot;&gt;expr (Class)NSClassFromString(@”IBARevealLoader”) == nil ? (void&lt;em&gt;)dlopen(“/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/libReveal.dylib”, 0x2) : ((void&lt;/em&gt;)0)&lt;/h1&gt;
+
+&lt;h1 id=&quot;expr-voidnsnotificationcenter-nsnotificationcenter-defaultcenter-postnotificationnameibarevealrequeststart-objectnil&quot;&gt;expr (void)[(NSNotificationCenter *)[NSNotificationCenter defaultCenter] postNotificationName:@”IBARevealRequestStart” object:nil];&lt;/h1&gt;
+
+&lt;p&gt;第一条命令用于加载Reveal的动态链接库；&lt;/p&gt;
+
+&lt;p&gt;第二条命令用于启动Reveal调试服务。&lt;/p&gt;
+
+&lt;p&gt;输入两条命令后，如果LLDB打印 “ INFO: Reveal Server started ” 即成功启动Reveal服务，点击Continue即可。&lt;/p&gt;
+
+&lt;p&gt;虽然说输入两条命令即可启动服务，但是每次重新启动项目后都要重新输入这么长的命令也是挺苦恼的，下面介绍一种方法可以非常方便地使用Reveal的命令。&lt;/p&gt;
+
+&lt;p&gt;二、设置LLDB命令别名
+打开终端，输入 vim ~/.lldbinit ，然后输入以下内容：&lt;/p&gt;
+
+&lt;p&gt;command alias reveal_load_sim expr (Class)NSClassFromString(@”IBARevealLoader”) == nil ? (void&lt;em&gt;)dlopen(“/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/libReveal.dylib”, 0x2) : ((void&lt;/em&gt;)0)&lt;/p&gt;
+
+&lt;p&gt;command alias reveal_start expr (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@”IBARevealRequestStart” object:nil];&lt;/p&gt;
+
+&lt;p&gt;command alias reveal_stop expr (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@”IBARevealRequestStop” object:nil];&lt;/p&gt;
+
+&lt;p&gt;reveal_load_sim为模拟器加载reveal调试用的动态链接库&lt;/p&gt;
+
+&lt;p&gt;reveal_start启动reveal调试功能&lt;/p&gt;
+
+&lt;p&gt;reveal_stop结束reveal调试功能&lt;/p&gt;
+
+&lt;p&gt;输入 :wq 保存
+这时候打开Xcode，在LLDB里面就会有输入提示了。&lt;/p&gt;
+
+&lt;p&gt;按顺序输入reveal_load_sim –&amp;gt; reveal_start 即可达到上面的效果。&lt;/p&gt;
+
+&lt;p&gt;参考资料
+iOS开发中集成Reveal&lt;/p&gt;
+
+&lt;p&gt;UI调试神器 for ios：Reveal的使用与破解&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">Reveal是一款UI调试工具，在iOS开发过程中可查看UI的层级关系并可动态修改界面，可以有效提高开发效率。这篇文章主要介绍如何把Reveal集成到实际的项目中。</summary></entry></feed>
