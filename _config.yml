@@ -14,7 +14,7 @@ theme_settings:
   # Icons
   home: "Darren's Blog"
   rss: false
-  email_address: "sysbox2019@gmail.com" # Full email address, e.g. "sam@example.com"
+  email_address: "dpanxp@163.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -36,7 +36,8 @@ theme_settings:
   wordpress:
   youtube:
   weibo: "iamods"
-
+  qq: "qq"
+  
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:

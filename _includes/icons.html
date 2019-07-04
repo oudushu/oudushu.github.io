@@ -1,8 +1,10 @@
-<li>
-	<a href="https://oudushu.github.io" title="Darren's Blog">
-		<i class="fas fa-fw fa-home"></i>
-	</a>
-</li>
+{% if site.theme_settings.home %}
+	<li>
+		<a href="https://oudushu.github.io" title="{{ site.theme_settings.home }}">
+			<i class="fas fa-fw fa-home"></i>
+		</a>
+	</li>
+{% endif %}
 
 {% if site.theme_settings.rss %}
 <li>
@@ -186,5 +188,12 @@
 		<i class="fab fa-fw fa-weibo"></i>
 	</a>
 </li>
+{% endif %}
 
+{% if site.theme_settings.qq %}
+<li>
+	<a href="https://oudushu.github.io/QQ-Contact/" title="{{ site.theme_settings.qq }}">
+		<i class="fab fa-fw fa-qq"></i>
+	</a>
+</li>
 {% endif %}

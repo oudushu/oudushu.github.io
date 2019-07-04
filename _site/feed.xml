@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>A website with blog posts and pages</description>
-    <pubDate>Thu, 04 Jul 2019 17:31:26 +0800</pubDate>
+    <pubDate>Thu, 04 Jul 2019 17:56:23 +0800</pubDate>
     
       <item>
         <title>SYS BOX 隐私政策</title>
@@ -95,6 +95,18 @@
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; offers customizable features that not only allow you to change app’s icon, but also allow you to change the background of home page and add cool starry sky effects.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; adapts to iOS 13’s dark mode in advance. You just click on the switch, and the Widgets on the Notification Center also adapt well to iOS 13’s dark mode.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jul 2019 00:00:00 +0800</pubDate>
+      </item>
+    
+      <item>
+        <title>添加QQ好友</title>
+        <link>/QQ-Contact/</link>
+        <guid isPermaLink="true">/QQ-Contact/</guid>
+        <description>&lt;p&gt;&lt;em&gt;** 扫描二维码添加好友或者搜索QQ号：873795595 **&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/image/qq_qr_code.JPG&quot; alt=&quot;QQ&quot; /&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Mon, 01 Jul 2019 00:00:00 +0800</pubDate>
       </item>
