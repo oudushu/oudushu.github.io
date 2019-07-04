@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SYS BOX
+title: SYS BOX 公告
 ---
 
 ***SYS BOX*** 是一款集合多个实用功能的通知栏小组件的应用，拥有极简的设计和优良的性能表现，功能强大而不累赘。

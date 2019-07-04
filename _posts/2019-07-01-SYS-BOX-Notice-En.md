@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SYS BOX
+title: SYS BOX Notice
 ---
 
 ***SYS BOX*** is an application that integrates multiple functional notification widgets, with a minimalist design and excellent performance. It is powerful but not cumbersome.

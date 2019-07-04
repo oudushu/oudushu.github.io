@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-07-04T10:33:41+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darren’s Blog</title><subtitle>Really cool blog about ... something</subtitle><author><name>Darren Ou</name></author><entry><title type="html">SYS BOX Privacy Policy</title><link href="http://localhost:4000/SYS-BOX-Privacy-Policy-En/" rel="alternate" type="text/html" title="SYS BOX Privacy Policy" /><published>2019-07-01T00:00:00+08:00</published><updated>2019-07-01T00:00:00+08:00</updated><id>http://localhost:4000/SYS-BOX-Privacy-Policy-En</id><content type="html" xml:base="http://localhost:4000/SYS-BOX-Privacy-Policy-En/">&lt;p&gt;The software respects and protects the personal privacy of all service users. The software will treat such information with a high degree of diligence and due diligence. The software will not disclose or provide such information to third parties. This software will update this privacy policy from time to time. By agreeing to this software service usage agreement, you shall be deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of the software service usage agreement.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-07-04T11:44:24+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darren’s Blog</title><subtitle>Really cool blog about ... something</subtitle><author><name>Darren Ou</name></author><entry><title type="html">SYS BOX Privacy Policy</title><link href="http://localhost:4000/SYS-BOX-Privacy-Policy-En/" rel="alternate" type="text/html" title="SYS BOX Privacy Policy" /><published>2019-07-01T00:00:00+08:00</published><updated>2019-07-01T00:00:00+08:00</updated><id>http://localhost:4000/SYS-BOX-Privacy-Policy-En</id><content type="html" xml:base="http://localhost:4000/SYS-BOX-Privacy-Policy-En/">&lt;p&gt;The software respects and protects the personal privacy of all service users. The software will treat such information with a high degree of diligence and due diligence. The software will not disclose or provide such information to third parties. This software will update this privacy policy from time to time. By agreeing to this software service usage agreement, you shall be deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of the software service usage agreement.&lt;/p&gt;
 
 &lt;h2 id=&quot;1-scope-of-application&quot;&gt;1. Scope of application&lt;/h2&gt;
 &lt;p&gt;a) When you use the software, the software will automatically read the information on your phone, including but not limited to the language, region, software and hardware characteristic information and other data you use.&lt;/p&gt;
@@ -11,7 +11,7 @@
 &lt;p&gt;b) When the software crashes, the stack information will be uploaded to the crash log analysis platform to improve the software in time to improve the user experience.&lt;/p&gt;
 
 &lt;h2 id=&quot;3-information-disclosure&quot;&gt;3. Information disclosure&lt;/h2&gt;
-&lt;p&gt;The software will not disclose your information to an untrusted third party.&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">The software respects and protects the personal privacy of all service users. The software will treat such information with a high degree of diligence and due diligence. The software will not disclose or provide such information to third parties. This software will update this privacy policy from time to time. By agreeing to this software service usage agreement, you shall be deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of the software service usage agreement.</summary></entry><entry><title type="html">SYS BOX</title><link href="http://localhost:4000/SYS-BOX-Notice/" rel="alternate" type="text/html" title="SYS BOX" /><published>2019-07-01T00:00:00+08:00</published><updated>2019-07-01T00:00:00+08:00</updated><id>http://localhost:4000/SYS-BOX-Notice</id><content type="html" xml:base="http://localhost:4000/SYS-BOX-Notice/">&lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; 是一款集合多个实用功能的通知栏小组件的应用，拥有极简的设计和优良的性能表现，功能强大而不累赘。&lt;/p&gt;
+&lt;p&gt;The software will not disclose your information to an untrusted third party.&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">The software respects and protects the personal privacy of all service users. The software will treat such information with a high degree of diligence and due diligence. The software will not disclose or provide such information to third parties. This software will update this privacy policy from time to time. By agreeing to this software service usage agreement, you shall be deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of the software service usage agreement.</summary></entry><entry><title type="html">SYS BOX 公告</title><link href="http://localhost:4000/SYS-BOX-Notice/" rel="alternate" type="text/html" title="SYS BOX 公告" /><published>2019-07-01T00:00:00+08:00</published><updated>2019-07-01T00:00:00+08:00</updated><id>http://localhost:4000/SYS-BOX-Notice</id><content type="html" xml:base="http://localhost:4000/SYS-BOX-Notice/">&lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; 是一款集合多个实用功能的通知栏小组件的应用，拥有极简的设计和优良的性能表现，功能强大而不累赘。&lt;/p&gt;
 
 &lt;p&gt;你可以在通知中心的“今天”页面里添加 &lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; 里集合小组件，轻松获得以下功能：&lt;/p&gt;
 
@@ -26,7 +26,7 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; 提供可定制化的功能，你不仅可以更换应用的图标，还可以随心更换首页的背景并添加酷炫的星空效果。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; 提前适配了 iOS 13 的黑暗模式，你只需要在应用设置里点击开关，在通知栏上的小组件也可以很好地适配 iOS 13 的黑暗模式。&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">SYS BOX 是一款集合多个实用功能的通知栏小组件的应用，拥有极简的设计和优良的性能表现，功能强大而不累赘。</summary></entry><entry><title type="html">SYS BOX</title><link href="http://localhost:4000/SYS-BOX-Notice-En/" rel="alternate" type="text/html" title="SYS BOX" /><published>2019-07-01T00:00:00+08:00</published><updated>2019-07-01T00:00:00+08:00</updated><id>http://localhost:4000/SYS-BOX-Notice-En</id><content type="html" xml:base="http://localhost:4000/SYS-BOX-Notice-En/">&lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; is an application that integrates multiple functional notification widgets, with a minimalist design and excellent performance. It is powerful but not cumbersome.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; 提前适配了 iOS 13 的黑暗模式，你只需要在应用设置里点击开关，在通知栏上的小组件也可以很好地适配 iOS 13 的黑暗模式。&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">SYS BOX 是一款集合多个实用功能的通知栏小组件的应用，拥有极简的设计和优良的性能表现，功能强大而不累赘。</summary></entry><entry><title type="html">SYS BOX Notice</title><link href="http://localhost:4000/SYS-BOX-Notice-En/" rel="alternate" type="text/html" title="SYS BOX Notice" /><published>2019-07-01T00:00:00+08:00</published><updated>2019-07-01T00:00:00+08:00</updated><id>http://localhost:4000/SYS-BOX-Notice-En</id><content type="html" xml:base="http://localhost:4000/SYS-BOX-Notice-En/">&lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; is an application that integrates multiple functional notification widgets, with a minimalist design and excellent performance. It is powerful but not cumbersome.&lt;/p&gt;
 
 &lt;p&gt;You can easily access the following features by adding collection Widgets from &lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; to the “Today” page of the Notification Center:&lt;/p&gt;
 
@@ -297,7 +297,205 @@ https://discussions.apple.com/message/30065692#30065692&lt;/p&gt;</content><auth
 &lt;p&gt;&lt;a href=&quot;http://swift.gg/2016/09/30/siri-speech-framework/&quot;&gt;http://swift.gg/2016/09/30/siri-speech-framework/&lt;/a&gt;
 &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2016/509/&quot;&gt;https://developer.apple.com/videos/play/wwdc2016/509/&lt;/a&gt;
 &lt;a href=&quot;https://developer.nuance.com/public/Help/DragonMobileSDKReference_iOS/Getting-started.html&quot;&gt;https://developer.nuance.com/public/Help/DragonMobileSDKReference_iOS/Getting-started.html&lt;/a&gt;
-&lt;a href=&quot;https://www.raywenderlich.com/60870/building-ios-app-like-siri&quot;&gt;https://www.raywenderlich.com/60870/building-ios-app-like-siri&lt;/a&gt;&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html"></summary></entry><entry><title type="html">对iOS数据安全的一次小探索</title><link href="http://localhost:4000/iOS-Security/" rel="alternate" type="text/html" title="对iOS数据安全的一次小探索" /><published>2017-03-30T00:00:00+08:00</published><updated>2017-03-30T00:00:00+08:00</updated><id>http://localhost:4000/iOS-Security</id><content type="html" xml:base="http://localhost:4000/iOS-Security/">&lt;h2 id=&quot;一主流保证数据安全的方式&quot;&gt;一、主流保证数据安全的方式&lt;/h2&gt;
+&lt;a href=&quot;https://www.raywenderlich.com/60870/building-ios-app-like-siri&quot;&gt;https://www.raywenderlich.com/60870/building-ios-app-like-siri&lt;/a&gt;&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html"></summary></entry><entry><title type="html">在树莓派上部署ATC网络模拟工具（Augmented Traffic Control）</title><link href="http://localhost:4000/Raspberry-ATC/" rel="alternate" type="text/html" title="在树莓派上部署ATC网络模拟工具（Augmented Traffic Control）" /><published>2017-04-11T00:00:00+08:00</published><updated>2017-04-11T00:00:00+08:00</updated><id>http://localhost:4000/Raspberry-ATC</id><content type="html" xml:base="http://localhost:4000/Raspberry-ATC/">&lt;h2 id=&quot;一前言&quot;&gt;一、前言&lt;/h2&gt;
+&lt;p&gt;作为移动开发者的我们，为了良好的用户体验，经常需要模拟手机应用在比较差的网络环境下的表现，模拟网络环境的方式有很多，比如使用Charles，或者在手机的开发者模式下模拟网络环境等等，但是这些都有一定的门槛。&lt;/p&gt;
+
+&lt;p&gt;使用Charles，首先你得连接WiFi，然后设置代理，接着开启网络模拟模式，最后测试完了如果忘了关闭代理，可能手机就上不了网了。而且都连上你电脑的代理的话就一次只能模拟一种网络环境。&lt;/p&gt;
+
+&lt;p&gt;使用手机的开发者模式，首先你的手机能进入开发者模式。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;如果你需要随便抓一位不懂技术同事帮你测试，这些方式都不太友好，有没有一种方式可以连上WiFi就可以使用的测试方式呢？有！接下来就介绍Facebook出品的一款网络模拟工具ATC。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;二简介&quot;&gt;二、简介&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Augmented Traffic Control (ATC) is a tool to simulate network conditions. It allows controlling the connection that a device has to the internet. Developers can use ATC to test their application across varying network conditions, easily emulating high speed, mobile, and even severely impaired networks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ATC全名叫Augmented Traffic Control，是Facebook出品的一款网络模拟工具，移动开发者可以通过这款工具模拟不同条件下的网络环境，可以通过网页自由地模拟网络带宽（bandwidth）、延迟（latency）、丢包率（packet loss）、错包率（corrupted packets）和乱序率（packets ordering）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;而且！！！更牛逼的是：不同的设备连接到同一WiFi还可以模拟不同的网络环境互不影响。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/99a779517d18a605046dec36d2beb02166f4e77b/68747470733a2f2f66616365626f6f6b2e6769746875622e696f2f6175676d656e7465642d747261666669632d636f6e74726f6c2f696d616765732f6174635f6f766572766965772e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/facebook/augmented-traffic-control&quot;&gt;github地址&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;三准备&quot;&gt;三、准备&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1、树莓派3（已内置有无线网卡）&lt;br /&gt;
+2、已刷入最新RASPBIAN系统的SD卡&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;四安装&quot;&gt;四、安装&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;安装主要有两步：&lt;br /&gt;
+1、让树莓派有发射AP热点的能力；&lt;br /&gt;
+2、安装ATC。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1让树莓派有发射ap热点的能力&quot;&gt;1、让树莓派有发射AP热点的能力&lt;/h3&gt;
+&lt;p&gt;1.安装hostapd虚拟热点程序和dnsmasq配置DHCP、DNS服务程序：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install dnsmasq hostapd&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;2.编辑&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo vim /etc/dhcpcd.conf&lt;/code&gt;文件，在该文件的最后加入下面的命令，用来为wlan0固定一个内网IP。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface wlan0
+static ip_address=10.0.0.1/24
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3.编辑&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo vim /etc/dnsmasq.conf&lt;/code&gt;dnsmasq配置文件，有600+行的内容，我们可以&lt;code class=&quot;highlighter-rouge&quot;&gt;shift+g&lt;/code&gt;滚动到最下面，然后加入下面的命令，用来控制IP地址的取值范围&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface=wlan0
+dhcp-range=10.0.0.2,10.0.0.50,255.255.255.0,12h
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;4.添加hostapd.conf配置文件&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo vim /etc/hostapd/hostapd.conf&lt;/code&gt;并添加下面内容，用于配置热点的账号密码等信息。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssid=PI3                 #账号
+wpa_passphrase=12345678  #密码
+interface=wlan0
+driver=nl80211
+hw_mode=g
+channel=10
+macaddr_acl=0
+auth_algs=1
+wpa=2
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=CCMP
+rsn_pairwise=CCMP
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;5.编辑sysctl.conf文件，设置路由转发&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo vim /etc/sysctl.conf&lt;/code&gt;，打开下面的注释&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Uncomment the next line to enable packet forwarding for IPv4
+net.ipv4.ip_forward=1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;6.更新iptables规则，依次执行下面命令&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+sudo iptables -A FORWARD -i eth0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+sudo iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
+sudo sh -c &quot;iptables-save &amp;gt; /etc/iptables.ipv4.nat&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;7.编辑&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo vim /etc/network/interfaces&lt;/code&gt;，在最后加入下面的命令&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;up iptables-restore &amp;lt; /etc/iptables.ipv4.nat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;8.重启树莓派后执行下面命令，如无意外就可以发射热点了&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo service hostapd start 
+sudo service dnsmasq start 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2安装atc&quot;&gt;2、安装ATC&lt;/h3&gt;
+&lt;p&gt;ATC需要依赖Python环境，RASPBIAN系统默认已经支持Python，所以不用再安装，如果你的是Ubuntu或者其他Linux系统，你需要输入下面命令先安装Python的依赖，并安装pip包管理工具。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install python-pip python-dev build-essential）
+sudo pip install --upgrade pip 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;1.安装ATC依赖库&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo pip install atc_thrift atcd django-atc-api django-atc-demo-ui django-atc-profile-storage
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;注意这里要加上&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt;，不然会因没有权限而安装失败。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2.创建新的Django项目&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;django-admin startproject atcui
+cd atcui
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3.编辑settings.py文件&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo vim atcui/settings.py&lt;/code&gt;，并在INSTALLED_APPS的后面加入下面参数&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;INSTALLED_APPS = (
+    ...
+    # Django ATC API
+    'rest_framework',
+    'atc_api',
+    # Django ATC Demo UI
+    'bootstrap_themes',
+    'django_static_jquery',
+    'atc_demo_ui',
+    # Django ATC Profile Storage
+    'atc_profile_storage',
+)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;4.编辑urls.py文件，并加入下面内容&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd atcui
+sudo vim urls.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+...
+from django.views.generic.base import RedirectView
+from django.conf.urls import include
+
+urlpatterns = [
+    ...
+    # Django ATC API
+    url(r'^api/v1/', include('atc_api.urls')),
+    # Django ATC Demo UI
+    url(r'^atc_demo_ui/', include('atc_demo_ui.urls')),
+    # Django ATC profile storage
+    url(r'^api/v1/profiles/', include('atc_profile_storage.urls')),
+    url(r'^$', RedirectView.as_view(url='/atc_demo_ui/', permanent=False)),
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;5.更新Django数据库&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python manage.py migrate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;到这里，我们已经完成整个环境的部署，步骤有点多，只要一步一步做，应该不会出问题。&lt;/p&gt;
+
+&lt;h2 id=&quot;五使用&quot;&gt;五、使用&lt;/h2&gt;
+
+&lt;p&gt;1、启动核心组件atcd&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo atcd --atcd-lan wlan0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;出现&lt;code class=&quot;highlighter-rouge&quot;&gt;Awaiting graceful shutdown.&lt;/code&gt;后按&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl+c&lt;/code&gt;退出。&lt;/p&gt;
+
+&lt;p&gt;2、启动Django工程&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd ..
+sudo python manage.py runserver 0.0.0.0:8000
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3、移动设备连接WiFi，使用浏览器输入&lt;code class=&quot;highlighter-rouge&quot;&gt;10.0.0.1:8000/atc_demo_ui/&lt;/code&gt;即可进入控制中心，添加网络配置&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/989987-b5a55cc4fb0223a9.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;控制中心&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ALLOWED_HOSTS = [‘10.0.0.1’]&lt;/p&gt;
+
+&lt;h2 id=&quot;六坑&quot;&gt;六、坑&lt;/h2&gt;
+
+&lt;p&gt;在部署ATC工具的过程中，我遇到过三个坑，还好解决起来不太难，希望大家再遇到的时候可以快速解决。&lt;/p&gt;
+
+&lt;h3 id=&quot;1权限问题&quot;&gt;1、权限问题&lt;/h3&gt;
+&lt;p&gt;安装ATC依赖库时没有权限，在命令签名加上&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt;即可。&lt;/p&gt;
+
+&lt;h3 id=&quot;2invalid-http_host-header-xxx-you-may-need-to-add-uxxx-to-allowed_hosts&quot;&gt;2、Invalid HTTP_HOST header :’xxx’. You may need to add u’xxx’ to ALLOWED_HOSTS.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/989987-00763262ef56bcd1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这个时候只需要编辑&lt;code class=&quot;highlighter-rouge&quot;&gt;atcui&lt;/code&gt;目录下的&lt;code class=&quot;highlighter-rouge&quot;&gt;settings.py&lt;/code&gt;文件，在ALLOWED_HOSTS后加上本机ip即可：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ALLOWED_HOSTS = ['10.0.0.1']
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3成功进入控制中心但是中间提示atc-is-not-running&quot;&gt;3、成功进入控制中心，但是中间提示&lt;em&gt;ATC is not running&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;Google了一下，发现还蛮多人遇到同样的问题，下面是作者的回复：
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/989987-16c0a2c5e0586568.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;ATC is not running&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/augmented-traffic-control/issues/153&quot;&gt;Issues地址&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;根据作者的提示，我重新安装了&lt;code class=&quot;highlighter-rouge&quot;&gt;django-rest-framework&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install django-rest-framework
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;然后重启服务即可。&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">一、前言 作为移动开发者的我们，为了良好的用户体验，经常需要模拟手机应用在比较差的网络环境下的表现，模拟网络环境的方式有很多，比如使用Charles，或者在手机的开发者模式下模拟网络环境等等，但是这些都有一定的门槛。</summary></entry><entry><title type="html">对iOS数据安全的一次小探索</title><link href="http://localhost:4000/iOS-Security/" rel="alternate" type="text/html" title="对iOS数据安全的一次小探索" /><published>2017-03-30T00:00:00+08:00</published><updated>2017-03-30T00:00:00+08:00</updated><id>http://localhost:4000/iOS-Security</id><content type="html" xml:base="http://localhost:4000/iOS-Security/">&lt;h2 id=&quot;一主流保证数据安全的方式&quot;&gt;一、主流保证数据安全的方式&lt;/h2&gt;
 &lt;h3 id=&quot;1网络传输安全&quot;&gt;1、网络传输安全&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;1.采用HTTPS通信协议&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
 可防止抓包窃取、篡改传输数据，大大增加了中间人攻击的成本。&lt;/p&gt;
@@ -513,7 +711,67 @@ self.encryptQueue = [FMEncryptDatabaseQueue databaseQueueWithPath:self.encryptDb
 &lt;p&gt;1、SQLCipher依赖本地存储的字符串进行数据库的加密和解密，如果这个字符串被泄漏出去，本地的数据库依然容易被解密，进而被读取里面的信息。可采用KeyChain保存？
  2、加密已存储大数据的数据库会消耗一定的时间，这段时间怎么处理才能让用户无感知？加密失败了怎么处理？
 3、欢迎大家补充。。。&lt;/p&gt;
-&lt;h3 id=&quot;6本文demo&quot;&gt;6、&lt;a href=&quot;https://github.com/OuDuShu/SQLCipherDemo&quot;&gt;本文demo&lt;/a&gt;&lt;/h3&gt;</content><author><name>Darren Ou</name></author><summary type="html">一、主流保证数据安全的方式 1、网络传输安全 1.采用HTTPS通信协议 可防止抓包窃取、篡改传输数据，大大增加了中间人攻击的成本。</summary></entry><entry><title type="html">iOS 性能优化汇总</title><link href="http://localhost:4000/iOS-Performance-Optimization/" rel="alternate" type="text/html" title="iOS 性能优化汇总" /><published>2017-02-11T00:00:00+08:00</published><updated>2017-02-11T00:00:00+08:00</updated><id>http://localhost:4000/iOS-Performance-Optimization</id><content type="html" xml:base="http://localhost:4000/iOS-Performance-Optimization/">&lt;p&gt;参考：https://i.cmgine.net/archives/14896.html&lt;/p&gt;
+&lt;h3 id=&quot;6本文demo&quot;&gt;6、&lt;a href=&quot;https://github.com/OuDuShu/SQLCipherDemo&quot;&gt;本文demo&lt;/a&gt;&lt;/h3&gt;</content><author><name>Darren Ou</name></author><summary type="html">一、主流保证数据安全的方式 1、网络传输安全 1.采用HTTPS通信协议 可防止抓包窃取、篡改传输数据，大大增加了中间人攻击的成本。</summary></entry><entry><title type="html">利用树莓派+RetroPie做一个怀旧游戏机</title><link href="http://localhost:4000/Raspberry-RestroPie/" rel="alternate" type="text/html" title="利用树莓派+RetroPie做一个怀旧游戏机" /><published>2017-03-12T00:00:00+08:00</published><updated>2017-03-12T00:00:00+08:00</updated><id>http://localhost:4000/Raspberry-RestroPie</id><content type="html" xml:base="http://localhost:4000/Raspberry-RestroPie/">&lt;p&gt;RetroPie
+一、前言
+偶尔会好怀念小时候跟朋友一起玩小霸王的日子，那时候很少家里有游戏机的人，一台游戏机有好几个朋友在等着玩，那时候能玩的东西不多，但日子过得简单而开心。虽说现在万能的淘宝还可以买到小霸王游戏机，但是远远不如自己做一个出来的成就感来的强。下面就一步一步把小时候的游戏机做出来。&lt;/p&gt;
+
+&lt;p&gt;二、准备
+1、树莓派+SD卡&lt;/p&gt;
+
+&lt;p&gt;2、显示器、游戏手柄、键盘等外设&lt;/p&gt;
+
+&lt;p&gt;三、下载RetroPie镜像
+RetroPie是一个开源的游戏模拟器，可以让你的树莓派或者PC变成一个复古游戏机，它集成了任天堂红白机、GameBoy、SNES等著名游戏系统，具有很高的可玩性。&lt;/p&gt;
+
+&lt;p&gt;你可以在Raspbian直接安装RetroPie，但是会耗费很长的时间，所以我在这里选择直接下载RetroPie镜像。&lt;/p&gt;
+
+&lt;p&gt;下载地址：https://retropie.org.uk/download/&lt;/p&gt;
+
+&lt;p&gt;四、往SD卡写入RetroPie镜像
+PC上可以使用 Win32DiskImager 工具写入镜像；&lt;/p&gt;
+
+&lt;p&gt;Mac系统下可以用 ApplePi-Baker 工具；&lt;/p&gt;
+
+&lt;p&gt;具体写入方法及下载地址网上都很容易找到，在这里就不再赘述。&lt;/p&gt;
+
+&lt;p&gt;把已经写入RetroPie镜像的SD卡插入树莓派并连接电源。&lt;/p&gt;
+
+&lt;p&gt;五、配置
+1.设置输入设备
+我们的游戏手柄有时候并没有那么多个键位，我们在设置的时候怎么跳过一个键位的设置呢？这里有个小技巧：长按“下”键即可跳过。&lt;/p&gt;
+
+&lt;p&gt;设置游戏手柄键位
+2.连接WiFi
+设置好键位后，我们就可以进入主界面，上面有“13 GAMES AVAILABLE”字样，这并不是意味着里面就有13个游戏可以马上玩的，应该理解为内置了13个游戏模拟器，这时候我们怎么样才能开始玩呢？&lt;/p&gt;
+
+&lt;p&gt;初始主界面
+按“A”键，进入设置界面，点击WIFI，连接你电脑同一个的局域网。&lt;/p&gt;
+
+&lt;p&gt;连接局域网
+3.传输roms
+打开PC，点击“计算机”上面的地址栏，输入“\retropie\roms”，即可进入游戏roms文件夹，把下载好的游戏rom拉到对应的模拟器文件夹，如.nes后缀的游戏rom拉进对应的nes文件夹。&lt;/p&gt;
+
+&lt;p&gt;模拟器文件夹
+4.重启模拟器&lt;/p&gt;
+
+&lt;p&gt;重启模拟器
+重启模拟器后就可以看到主界面多了一个选项，选择游戏就可以开始你的怀旧之旅了！&lt;/p&gt;
+
+&lt;p&gt;多了一个选项&lt;/p&gt;
+
+&lt;p&gt;超级马里奥
+六、其他配置
+有人会发现自己的SD卡的内存明明很大，但是没有塞多少个游戏内存就满了，可以进行下面的配置“扩展”内存：&lt;/p&gt;
+
+&lt;p&gt;进入RetroPie的设置界面，进入RASPI-CONFIG&lt;/p&gt;
+
+&lt;p&gt;RASPI-CONFIG
+选择第一项Expand Filesystem，重启树莓派即可扩展内存了。&lt;/p&gt;
+
+&lt;p&gt;另外，你还可以在这里进行修改登录密码、国际化选项、设置超频等操作。&lt;/p&gt;
+
+&lt;p&gt;树莓派设置界面
+七、祝你玩得开心😊&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">RetroPie 一、前言 偶尔会好怀念小时候跟朋友一起玩小霸王的日子，那时候很少家里有游戏机的人，一台游戏机有好几个朋友在等着玩，那时候能玩的东西不多，但日子过得简单而开心。虽说现在万能的淘宝还可以买到小霸王游戏机，但是远远不如自己做一个出来的成就感来的强。下面就一步一步把小时候的游戏机做出来。</summary></entry><entry><title type="html">iOS 性能优化汇总</title><link href="http://localhost:4000/iOS-Performance-Optimization/" rel="alternate" type="text/html" title="iOS 性能优化汇总" /><published>2017-02-11T00:00:00+08:00</published><updated>2017-02-11T00:00:00+08:00</updated><id>http://localhost:4000/iOS-Performance-Optimization</id><content type="html" xml:base="http://localhost:4000/iOS-Performance-Optimization/">&lt;p&gt;参考：https://i.cmgine.net/archives/14896.html&lt;/p&gt;
 
 &lt;p&gt;入门：
 1、用ARC管理内存
@@ -594,62 +852,4 @@ view.layer.shadowPath = [[UIBezierPath bezierPathWithRect:view.bounds] CGPath];&
 1、加速启动时间
 2、使用Autorelease Pool
 3、选择是否缓存图片
-4、避免日期格式转换&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">参考：https://i.cmgine.net/archives/14896.html</summary></entry><entry><title type="html">iOS项目集成Reveal</title><link href="http://localhost:4000/iOS-Reveal/" rel="alternate" type="text/html" title="iOS项目集成Reveal" /><published>2016-12-21T00:00:00+08:00</published><updated>2016-12-21T00:00:00+08:00</updated><id>http://localhost:4000/iOS-Reveal</id><content type="html" xml:base="http://localhost:4000/iOS-Reveal/">&lt;p&gt;Reveal是一款UI调试工具，在iOS开发过程中可查看UI的层级关系并可动态修改界面，可以有效提高开发效率。这篇文章主要介绍如何把Reveal集成到实际的项目中。&lt;/p&gt;
-
-&lt;p&gt;一、Reveal主要有两种集成方式：
-1、framework集成（可忽略，直接看第二点）
-（1）打开Reveal，选择 Reveal –&amp;gt; Help –&amp;gt; Show Reveal Library in Finder –&amp;gt; iOS Library&lt;/p&gt;
-
-&lt;p&gt;（2）把Reveal.framework导入到项目中&lt;/p&gt;
-
-&lt;p&gt;（3）配置Target，Target –&amp;gt; Build Setting –&amp;gt; Other Linker Flags 添加以下4项：&lt;/p&gt;
-
-&lt;p&gt;（4）运行项目 –&amp;gt; 打开Reveal –&amp;gt; 选择连接设备&lt;/p&gt;
-
-&lt;p&gt;项目的UI图层就可以出来了。&lt;/p&gt;
-
-&lt;p&gt;这种方法有几个弊端：1、需要配置项目的Build Setting，修改Other Linker Flags，多人协作开发的话如果有人没有配置就会编译出错；2、如果不留意容易打包的时候把Reveal的framework也打包进去，增大包的体积。&lt;/p&gt;
-
-&lt;p&gt;以下推荐另一种集成方法。&lt;/p&gt;
-
-&lt;p&gt;2、LLDB集成（推荐！！）
-（1）运行项目 –&amp;gt; 点击Pause program execution。&lt;/p&gt;
-
-&lt;p&gt;（2）在LLDB依次输入以下两条命令&lt;/p&gt;
-
-&lt;h1 id=&quot;expr-classnsclassfromstringibarevealloader--nil--voiddlopenapplicationsrevealappcontentssharedsupportios-librarieslibrevealdylib-0x2--void0&quot;&gt;expr (Class)NSClassFromString(@”IBARevealLoader”) == nil ? (void&lt;em&gt;)dlopen(“/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/libReveal.dylib”, 0x2) : ((void&lt;/em&gt;)0)&lt;/h1&gt;
-
-&lt;h1 id=&quot;expr-voidnsnotificationcenter-nsnotificationcenter-defaultcenter-postnotificationnameibarevealrequeststart-objectnil&quot;&gt;expr (void)[(NSNotificationCenter *)[NSNotificationCenter defaultCenter] postNotificationName:@”IBARevealRequestStart” object:nil];&lt;/h1&gt;
-
-&lt;p&gt;第一条命令用于加载Reveal的动态链接库；&lt;/p&gt;
-
-&lt;p&gt;第二条命令用于启动Reveal调试服务。&lt;/p&gt;
-
-&lt;p&gt;输入两条命令后，如果LLDB打印 “ INFO: Reveal Server started ” 即成功启动Reveal服务，点击Continue即可。&lt;/p&gt;
-
-&lt;p&gt;虽然说输入两条命令即可启动服务，但是每次重新启动项目后都要重新输入这么长的命令也是挺苦恼的，下面介绍一种方法可以非常方便地使用Reveal的命令。&lt;/p&gt;
-
-&lt;p&gt;二、设置LLDB命令别名
-打开终端，输入 vim ~/.lldbinit ，然后输入以下内容：&lt;/p&gt;
-
-&lt;p&gt;command alias reveal_load_sim expr (Class)NSClassFromString(@”IBARevealLoader”) == nil ? (void&lt;em&gt;)dlopen(“/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/libReveal.dylib”, 0x2) : ((void&lt;/em&gt;)0)&lt;/p&gt;
-
-&lt;p&gt;command alias reveal_start expr (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@”IBARevealRequestStart” object:nil];&lt;/p&gt;
-
-&lt;p&gt;command alias reveal_stop expr (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@”IBARevealRequestStop” object:nil];&lt;/p&gt;
-
-&lt;p&gt;reveal_load_sim为模拟器加载reveal调试用的动态链接库&lt;/p&gt;
-
-&lt;p&gt;reveal_start启动reveal调试功能&lt;/p&gt;
-
-&lt;p&gt;reveal_stop结束reveal调试功能&lt;/p&gt;
-
-&lt;p&gt;输入 :wq 保存
-这时候打开Xcode，在LLDB里面就会有输入提示了。&lt;/p&gt;
-
-&lt;p&gt;按顺序输入reveal_load_sim –&amp;gt; reveal_start 即可达到上面的效果。&lt;/p&gt;
-
-&lt;p&gt;参考资料
-iOS开发中集成Reveal&lt;/p&gt;
-
-&lt;p&gt;UI调试神器 for ios：Reveal的使用与破解&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">Reveal是一款UI调试工具，在iOS开发过程中可查看UI的层级关系并可动态修改界面，可以有效提高开发效率。这篇文章主要介绍如何把Reveal集成到实际的项目中。</summary></entry></feed>
+4、避免日期格式转换&lt;/p&gt;</content><author><name>Darren Ou</name></author><summary type="html">参考：https://i.cmgine.net/archives/14896.html</summary></entry></feed>
