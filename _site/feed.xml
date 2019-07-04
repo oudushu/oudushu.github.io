@@ -5,12 +5,12 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>A website with blog posts and pages</description>
-    <pubDate>Thu, 04 Jul 2019 14:32:58 +0800</pubDate>
+    <pubDate>Thu, 04 Jul 2019 15:05:00 +0800</pubDate>
     
       <item>
         <title>SYS BOX 隐私政策</title>
-        <link>/2019/07/01/SYS-BOX-Privacy-Policy.html</link>
-        <guid isPermaLink="true">/2019/07/01/SYS-BOX-Privacy-Policy.html</guid>
+        <link>/SYS-BOX-Privacy-Policy/</link>
+        <guid isPermaLink="true">/SYS-BOX-Privacy-Policy/</guid>
         <description>&lt;p&gt;本软件尊重并保护所有使用服务用户的个人隐私权。本软件将以高度的勤勉、审慎义务对待这些信息。本软件不会将这些信息对外披露或向第三方提供。本软件会不时更新本隐私权政策。您在同意本软件服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于本软件服务使用协议不可分割的一部分。&lt;/p&gt;
 
 &lt;h2 id=&quot;一适用范围&quot;&gt;一、适用范围&lt;/h2&gt;
@@ -31,8 +31,8 @@
     
       <item>
         <title>SYS BOX Privacy Policy</title>
-        <link>/2019/07/01/SYS-BOX-Privacy-Policy-En.html</link>
-        <guid isPermaLink="true">/2019/07/01/SYS-BOX-Privacy-Policy-En.html</guid>
+        <link>/SYS-BOX-Privacy-Policy-En/</link>
+        <guid isPermaLink="true">/SYS-BOX-Privacy-Policy-En/</guid>
         <description>&lt;p&gt;The software respects and protects the personal privacy of all service users. The software will treat such information with a high degree of diligence and due diligence. The software will not disclose or provide such information to third parties. This software will update this privacy policy from time to time. By agreeing to this software service usage agreement, you shall be deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of the software service usage agreement.&lt;/p&gt;
 
 &lt;h2 id=&quot;1-scope-of-application&quot;&gt;1. Scope of application&lt;/h2&gt;
@@ -53,8 +53,8 @@
     
       <item>
         <title>SYS BOX 公告</title>
-        <link>/2019/07/01/SYS-BOX-Notice.html</link>
-        <guid isPermaLink="true">/2019/07/01/SYS-BOX-Notice.html</guid>
+        <link>/SYS-BOX-Notice/</link>
+        <guid isPermaLink="true">/SYS-BOX-Notice/</guid>
         <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; 是一款集合多个实用功能的通知栏小组件的应用，拥有极简的设计和优良的性能表现，功能强大而不累赘。&lt;/p&gt;
 
 &lt;p&gt;你可以在通知中心的“今天”页面里添加 &lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; 里集合小组件，轻松获得以下功能：&lt;/p&gt;
@@ -77,8 +77,8 @@
     
       <item>
         <title>SYS BOX Notice</title>
-        <link>/2019/07/01/SYS-BOX-Notice-En.html</link>
-        <guid isPermaLink="true">/2019/07/01/SYS-BOX-Notice-En.html</guid>
+        <link>/SYS-BOX-Notice-En/</link>
+        <guid isPermaLink="true">/SYS-BOX-Notice-En/</guid>
         <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; is an application that integrates multiple functional notification widgets, with a minimalist design and excellent performance. It is powerful but not cumbersome.&lt;/p&gt;
 
 &lt;p&gt;You can easily access the following features by adding collection Widgets from &lt;strong&gt;&lt;em&gt;SYS BOX&lt;/em&gt;&lt;/strong&gt; to the “Today” page of the Notification Center:&lt;/p&gt;
@@ -101,8 +101,8 @@
     
       <item>
         <title>关于iOS多任务页面底部出现“xxx，早上好”banner的调研</title>
-        <link>/2018/11/12/iOS-Banners.html</link>
-        <guid isPermaLink="true">/2018/11/12/iOS-Banners.html</guid>
+        <link>/iOS-Banners/</link>
+        <guid isPermaLink="true">/iOS-Banners/</guid>
         <description>&lt;h3 id=&quot;多任务页面底部banner出现的种类&quot;&gt;多任务页面底部banner出现的种类&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/media/image/ios_bottom_banners_1.png&quot; alt=&quot;Image_1&quot; /&gt;
 &lt;strong&gt;&lt;em&gt;1、handoff（接力）
@@ -161,8 +161,8 @@ https://discussions.apple.com/message/30065692#30065692&lt;/p&gt;
     
       <item>
         <title>iOS利用Speech Kit实现语音识别</title>
-        <link>/2017/12/10/iOS-Speech-Kit.html</link>
-        <guid isPermaLink="true">/2017/12/10/iOS-Speech-Kit.html</guid>
+        <link>/iOS-Speech-Kit/</link>
+        <guid isPermaLink="true">/iOS-Speech-Kit/</guid>
         <description>&lt;p&gt;&lt;img src=&quot;/media/image/speech_kit_1.jpg&quot; alt=&quot;Siri.jpeg&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;一前言&quot;&gt;一、前言&lt;/h2&gt;
@@ -363,8 +363,8 @@ https://discussions.apple.com/message/30065692#30065692&lt;/p&gt;
     
       <item>
         <title>在树莓派上部署ATC网络模拟工具（Augmented Traffic Control）</title>
-        <link>/2017/04/11/Raspberry-ATC.html</link>
-        <guid isPermaLink="true">/2017/04/11/Raspberry-ATC.html</guid>
+        <link>/Raspberry-ATC/</link>
+        <guid isPermaLink="true">/Raspberry-ATC/</guid>
         <description>&lt;h2 id=&quot;一前言&quot;&gt;一、前言&lt;/h2&gt;
 &lt;p&gt;作为移动开发者的我们，为了良好的用户体验，经常需要模拟手机应用在比较差的网络环境下的表现，模拟网络环境的方式有很多，比如使用Charles，或者在手机的开发者模式下模拟网络环境等等，但是这些都有一定的门槛。&lt;/p&gt;
 
@@ -570,8 +570,8 @@ sudo python manage.py runserver 0.0.0.0:8000
     
       <item>
         <title>对iOS数据安全的一次小探索</title>
-        <link>/2017/03/30/iOS-Security.html</link>
-        <guid isPermaLink="true">/2017/03/30/iOS-Security.html</guid>
+        <link>/iOS-Security/</link>
+        <guid isPermaLink="true">/iOS-Security/</guid>
         <description>&lt;h2 id=&quot;一主流保证数据安全的方式&quot;&gt;一、主流保证数据安全的方式&lt;/h2&gt;
 &lt;h3 id=&quot;1网络传输安全&quot;&gt;1、网络传输安全&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;1.采用HTTPS通信协议&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
@@ -795,8 +795,8 @@ self.encryptQueue = [FMEncryptDatabaseQueue databaseQueueWithPath:self.encryptDb
     
       <item>
         <title>利用树莓派+RetroPie做一个怀旧游戏机</title>
-        <link>/2017/03/12/Raspberry-RestroPie.html</link>
-        <guid isPermaLink="true">/2017/03/12/Raspberry-RestroPie.html</guid>
+        <link>/Raspberry-RestroPie/</link>
+        <guid isPermaLink="true">/Raspberry-RestroPie/</guid>
         <description>&lt;p&gt;RetroPie
 一、前言
 偶尔会好怀念小时候跟朋友一起玩小霸王的日子，那时候很少家里有游戏机的人，一台游戏机有好几个朋友在等着玩，那时候能玩的东西不多，但日子过得简单而开心。虽说现在万能的淘宝还可以买到小霸王游戏机，但是远远不如自己做一个出来的成就感来的强。下面就一步一步把小时候的游戏机做出来。&lt;/p&gt;
@@ -864,8 +864,8 @@ PC上可以使用 Win32DiskImager 工具写入镜像；&lt;/p&gt;
     
       <item>
         <title>iOS 性能优化汇总</title>
-        <link>/2017/02/11/iOS-Performance-Optimization.html</link>
-        <guid isPermaLink="true">/2017/02/11/iOS-Performance-Optimization.html</guid>
+        <link>/iOS-Performance-Optimization/</link>
+        <guid isPermaLink="true">/iOS-Performance-Optimization/</guid>
         <description>&lt;p&gt;参考：https://i.cmgine.net/archives/14896.html&lt;/p&gt;
 
 &lt;p&gt;入门：
@@ -954,8 +954,8 @@ view.layer.shadowPath = [[UIBezierPath bezierPathWithRect:view.bounds] CGPath];&
     
       <item>
         <title>事件传递：响应者链条（译）</title>
-        <link>/2017/01/13/iOS-Response-Chain.html</link>
-        <guid isPermaLink="true">/2017/01/13/iOS-Response-Chain.html</guid>
+        <link>/iOS-Response-Chain/</link>
+        <guid isPermaLink="true">/iOS-Response-Chain/</guid>
         <description>&lt;p&gt;Reveal是一款UI调试工具，在iOS开发过程中可查看UI的层级关系并可动态修改界面，可以有效提高开发效率。这篇文章主要介绍如何把Reveal集成到实际的项目中。&lt;/p&gt;
 
 &lt;p&gt;一、Reveal主要有两种集成方式：
@@ -1021,8 +1021,8 @@ iOS开发中集成Reveal&lt;/p&gt;
     
       <item>
         <title>iOS项目集成Reveal</title>
-        <link>/2016/12/21/iOS-Reveal.html</link>
-        <guid isPermaLink="true">/2016/12/21/iOS-Reveal.html</guid>
+        <link>/iOS-Reveal/</link>
+        <guid isPermaLink="true">/iOS-Reveal/</guid>
         <description>&lt;p&gt;Reveal是一款UI调试工具，在iOS开发过程中可查看UI的层级关系并可动态修改界面，可以有效提高开发效率。这篇文章主要介绍如何把Reveal集成到实际的项目中。&lt;/p&gt;
 
 &lt;p&gt;一、Reveal主要有两种集成方式：
