@@ -12,6 +12,7 @@ theme_settings:
   description: "A website with blog posts and pages" # used by search engines
 
   # Icons
+  home: "Darren's Blog"
   rss: false
   email_address: "sysbox2019@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
