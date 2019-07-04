@@ -34,7 +34,7 @@ theme_settings:
   twitter: 
   wordpress:
   youtube:
-  weibo: "iamods"
+  # weibo: "iamods"
   email_address: "dpanxp@163.com" # Full email address, e.g. "sam@example.com"
   qq: "qq"
   

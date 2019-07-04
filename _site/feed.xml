@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>A website with blog posts and pages</description>
-    <pubDate>Thu, 04 Jul 2019 21:02:14 +0800</pubDate>
+    <pubDate>Thu, 04 Jul 2019 22:52:35 +0800</pubDate>
     
       <item>
         <title>SYS BOX 隐私政策</title>
@@ -101,8 +101,8 @@
     
       <item>
         <title>关于iOS多任务页面底部出现“xxx，早上好”banner的调研</title>
-        <link>/iOS-Banners/</link>
-        <guid isPermaLink="true">/iOS-Banners/</guid>
+        <link>/iOS-banners/</link>
+        <guid isPermaLink="true">/iOS-banners/</guid>
         <description>&lt;h3 id=&quot;多任务页面底部banner出现的种类&quot;&gt;多任务页面底部banner出现的种类&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/media/image/ios_bottom_banners_1.png&quot; alt=&quot;Image_1&quot; /&gt;
 &lt;strong&gt;&lt;em&gt;1、handoff（接力）
