@@ -111,7 +111,7 @@ KeyChain是iOS系统级的存储方式，安全性无需质疑，且删除应用
 
 <p>继承FMDatabase的子类需要重载以下方法</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>- (BOOL)open {
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- (BOOL)open {
     if (_db) {
         return YES;
     }
@@ -158,27 +158,27 @@ KeyChain是iOS系统级的存储方式，安全性无需质疑，且删除应用
     }
     return [_databasePath fileSystemRepresentation];
 }
-</code></pre></div>
+</code></pre></div></div>
 <p>继承FMDatabaseQueue的子类只需要重载一个方法</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>+ (Class)databaseClass {
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+ (Class)databaseClass {
     return [FMEncryptDatabase class];
 }
-</code></pre></div>
+</code></pre></div></div>
 
 <p>使用的时候只需要更改下面的语句</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>// 原：
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// 原：
 self.normalQueue = [FMDatabaseQueue databaseQueueWithPath:self.normalDbPath];
 // 改为：
 self.encryptQueue = [FMEncryptDatabaseQueue databaseQueueWithPath:self.encryptDbPath];
-</code></pre></div>
+</code></pre></div></div>
 
 <h4 id="2加密已有数据库">2.加密已有数据库</h4>
 
 <p>加密已有数据库我已经封装成下面的方法：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>/**
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/**
  加密数据库（保留原有数据库）
  */
 + (BOOL)encryptDatabase:(NSString *)origPath toPath:(NSString *)toPath {
@@ -196,7 +196,7 @@ self.encryptQueue = [FMEncryptDatabaseQueue databaseQueueWithPath:self.encryptDb
         return NO;
     }
 }
-</code></pre></div>
+</code></pre></div></div>
 <p><strong><em>这里有两点需要注意的地方：</em></strong><br />
 <strong><em>1、这里必须使用全路径</em></strong><br />
 <strong><em>2、加密后的queue必须同步更换为FMEncryptDatabaseQueue，不然无法读写数据</em></strong></p>
@@ -204,7 +204,7 @@ self.encryptQueue = [FMEncryptDatabaseQueue databaseQueueWithPath:self.encryptDb
 <h4 id="3解密已加密数据库">3.解密已加密数据库</h4>
 <p>解密已加密的数据库已封装为以下方法：</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>/**
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/**
  解密数据库（保留原有数据库）
  */
 + (BOOL)unencryptDatabase:(NSString *)origPath toPath:(NSString *)toPath {
@@ -224,7 +224,7 @@ self.encryptQueue = [FMEncryptDatabaseQueue databaseQueueWithPath:self.encryptDb
         return NO;
     }
 }
-</code></pre></div>
+</code></pre></div></div>
 <p><strong><em>这里也有两点需要注意的地方：</em></strong><br />
 <strong><em>1、这里必须使用全路径</em></strong><br />
 <strong><em>2、解密后的queue必须同步更换为FMDatabaseQueue，不然无法读写数据</em></strong></p>
