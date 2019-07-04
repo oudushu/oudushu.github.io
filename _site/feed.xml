@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>A website with blog posts and pages</description>
-    <pubDate>Thu, 04 Jul 2019 15:05:00 +0800</pubDate>
+    <pubDate>Thu, 04 Jul 2019 15:42:59 +0800</pubDate>
     
       <item>
         <title>SYS BOX 隐私政策</title>
@@ -35,17 +35,17 @@
         <guid isPermaLink="true">/SYS-BOX-Privacy-Policy-En/</guid>
         <description>&lt;p&gt;The software respects and protects the personal privacy of all service users. The software will treat such information with a high degree of diligence and due diligence. The software will not disclose or provide such information to third parties. This software will update this privacy policy from time to time. By agreeing to this software service usage agreement, you shall be deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of the software service usage agreement.&lt;/p&gt;
 
-&lt;h2 id=&quot;1-scope-of-application&quot;&gt;1. Scope of application&lt;/h2&gt;
+&lt;h3 id=&quot;1-scope-of-application&quot;&gt;1. Scope of application&lt;/h3&gt;
 &lt;p&gt;a) When you use the software, the software will automatically read the information on your phone, including but not limited to the language, region, software and hardware characteristic information and other data you use.&lt;/p&gt;
 
 &lt;p&gt;b) For better user experience, when the software crashes, the stack information will be uploaded to the crash log analysis platform, and user privacy information will never be uploaded.&lt;/p&gt;
 
-&lt;h2 id=&quot;2-use-of-information&quot;&gt;2. Use of information&lt;/h2&gt;
+&lt;h3 id=&quot;2-use-of-information&quot;&gt;2. Use of information&lt;/h3&gt;
 &lt;p&gt;a) When you use the software, the traffic package information and application shortcut entrance you recorded will only be recorded locally, and will not be uploaded to the server;&lt;/p&gt;
 
 &lt;p&gt;b) When the software crashes, the stack information will be uploaded to the crash log analysis platform to improve the software in time to improve the user experience.&lt;/p&gt;
 
-&lt;h2 id=&quot;3-information-disclosure&quot;&gt;3. Information disclosure&lt;/h2&gt;
+&lt;h3 id=&quot;3-information-disclosure&quot;&gt;3. Information disclosure&lt;/h3&gt;
 &lt;p&gt;The software will not disclose your information to an untrusted third party.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jul 2019 00:00:00 +0800</pubDate>
