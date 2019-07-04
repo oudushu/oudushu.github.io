@@ -1,42 +1,81 @@
-title: "Darren's Blog"
-author: "Darren Ou"
-description: "Really cool blog about ... something"
-lang: "en"
-url: "https://oudushu.github.io"
+# SITE CONFIGURATION
+#baseurl: "/type-theme"
+url: "https://rohanchandra.github.io/"
 
-# Page settings
-permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
-date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
-#paginate: 8                 # use "layout: paginate" in the index.html to enable pagination
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Darren's Blog
+  avatar: assets/img/avatar.png
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
+  description: "A website with blog posts and pages" # used by search engines
 
-# Theme settings
-hide_title: true            # remove site heading in the header
-hide_footer: true           # hide the "previous" and "next" links at the end of each post
-dark_theme: false            # use the dark mode as default
-dark_header: true           # keep the header dark
-dark_footer: false           # keep the footer dark
-# style: minimal             # use a simpler style inspired by the minima theme
+  # Header and footer text
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
-weibo_username:     欧杜书
-# zhihu_username:     huxpro
-github_username:    OuDuShu
-email:  sysbox2019@gmail.com
+  # Icons
+  rss: false
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: "rohanchandra/type-theme"
+  gitter:
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "twitter"
+  wordpress:
+  youtube:
 
-navigation:                  # site navigation in the header
-  - index.html
-  - README.md
-#  - title: "https://"       # linking external sites is also supported
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+  search: false # Enable the search feature
 
-#icons:                      # icons in the header, see http://fontawesome.com/icons
-#  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
-github: "https://github.com/OuDuShu"
-#  rss: "/contrast/feed.xml"
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_search_no_results: "No results found."
 
-comments:                    # embed disqus or isso comments
-#  disqus: ""
-#  isso: ""
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
-plugins: 
- - jekyll-feed
- - jekyll-paginate
- - jekyll-default-layout
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate]
+exclude:
+  - Gemfile
+  - Gemfile.lock
