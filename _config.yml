@@ -14,14 +14,13 @@ theme_settings:
   # Icons
   home: "Darren's Blog"
   rss: false
-  email_address: "dpanxp@163.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "OuDuShu"
+  # github: "OuDuShu"
   gitter:
   google_plus:
   instagram:
@@ -36,6 +35,7 @@ theme_settings:
   wordpress:
   youtube:
   weibo: "iamods"
+  email_address: "dpanxp@163.com" # Full email address, e.g. "sam@example.com"
   qq: "qq"
   
   # Scripts

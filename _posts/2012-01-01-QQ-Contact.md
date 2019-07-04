@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 添加QQ好友
+title: QQ
 hide: true
 ---
 
