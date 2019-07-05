@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>A website with blog posts and pages</description>
-    <pubDate>Fri, 05 Jul 2019 18:18:38 +0800</pubDate>
+    <pubDate>Fri, 05 Jul 2019 18:21:50 +0800</pubDate>
     
       <item>
         <title>SYS BOX 隐私政策</title>
@@ -1090,7 +1090,7 @@ iOS开发中集成Reveal&lt;/p&gt;
         <title>QQ</title>
         <link>/QQ-Contact/</link>
         <guid isPermaLink="true">/QQ-Contact/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Scan QR code to add friends or search QQ number: 873795595&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Scan QR code to add friend or search QQ number: 873795595&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/media/image/qq_qr_code.JPG&quot; alt=&quot;QQ&quot; /&gt;&lt;/p&gt;
 
