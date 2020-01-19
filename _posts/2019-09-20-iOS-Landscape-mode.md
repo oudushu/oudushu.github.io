@@ -3,7 +3,7 @@ layout: post
 title: 直播间横屏技术方案
 ---
 
-![Image_1](/media/image/ios_landscape_1.png)
+![Image_1](/media/image/ios_landscape_1.jpg)
 
 ### 一、背景
 目前Likee直播间已支持PC推流直播，但只支持竖屏播放，导致观看体验不佳，故需要把横屏模式加上。
