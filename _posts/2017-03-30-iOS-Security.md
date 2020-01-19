@@ -222,4 +222,5 @@ self.encryptQueue = [FMEncryptDatabaseQueue databaseQueueWithPath:self.encryptDb
  1、SQLCipher依赖本地存储的字符串进行数据库的加密和解密，如果这个字符串被泄漏出去，本地的数据库依然容易被解密，进而被读取里面的信息。可采用KeyChain保存？
  2、加密已存储大数据的数据库会消耗一定的时间，这段时间怎么处理才能让用户无感知？加密失败了怎么处理？
 3、欢迎大家补充。。。
-### 6、[本文demo](https://github.com/OuDuShu/SQLCipherDemo)
+### 6、本文Demo
+[Demo](https://github.com/OuDuShu/SQLCipherDemo)
