@@ -3,7 +3,7 @@ layout: post
 title: iOS接入CallKit框架
 ---
 
-![](https://upload-images.jianshu.io/upload_images/989987-3b291a8e77692003.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Image_1](/media/image/ios_callkit_1.png)
 
 ## 一、背景 & CallKit简介
 公司针对国外市场，新成立了一个VoIP类型的项目---OFree，能与iOS的CallKit很好的结合，在这里记录一下接入CallKit的过程。
@@ -15,7 +15,7 @@ title: iOS接入CallKit框架
 ## 二、原理
 ### 1、呼入
 #### 来电
-![](https://upload-images.jianshu.io/upload_images/989987-fddf124b4764048b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Image_2](/media/image/ios_callkit_2.png)
 
 1.OFree接收到服务器的来电信息（后台时VoIP Push）；
 2.创建CXCallUpdate对象记录来电信息，并记录该通话唯一标识；
@@ -23,14 +23,14 @@ title: iOS接入CallKit框架
 4.系统接收到来电信息后显示原生来电UI。
 
 #### 响应来电
-![](https://upload-images.jianshu.io/upload_images/989987-1cd5512c28a28b2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Image_3](/media/image/ios_callkit_3.png)
 
 1.用户在原生来电UI上点击接听按钮（或挂断按钮）；
 2.系统把动作封装成CXAnswerCallAction，通过CXProvider的Delegate回调到OFree；
 3.OFree收到回调后会开始配置mediasdk，调整UI等操作，最后开始通话。
 
 #### 结束来电
-![](https://upload-images.jianshu.io/upload_images/989987-4447d7cdb74308d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Image_4](/media/image/ios_callkit_4.png)
 
 1.OFree在前台时，用户点击挂断按钮；
 2.创建CXTransaction对象，用于包装挂断动作CXEndCallAction（包含该通话唯一标识）；
@@ -39,7 +39,7 @@ title: iOS接入CallKit框架
 5.OFree收到回调后会开始释放mediasdk（这里要注意释放顺序，不能在系统回调前把sdk释放掉），调整UI等操作。
 
 ### 2、呼出
-![](https://upload-images.jianshu.io/upload_images/989987-1bc185e3c5fcc56e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Image_5](/media/image/ios_callkit_5.png)
 
 1.用户在OFree呼出电话；
 2.创建CXTransaction对象，用于包装呼出动作CXStartCallAction（包含该通话唯一标识、呼出号码等信息）；
@@ -113,7 +113,7 @@ linkd正常登录后接收到来电拓传，这时候会走在前台状态的流
 
 OFree在接收到VoIP Push后的调用时序如下：
 
-![OFree在接收到VoIP Push后的调用时序](https://upload-images.jianshu.io/upload_images/989987-f3a160ff7252e972.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![OFree在接收到VoIP Push后的调用时序](/media/image/ios_callkit_6.png)
 
 ## 四、风险评估
 （风险从高到低排序）
