@@ -1,163 +1,150 @@
 ---
 layout: post
-title: iOS接入CallKit框架
+title: 直播间横屏技术方案
 ---
 
-![Image_1](/media/image/ios_callkit_1.png)
 
-## 一、背景 & CallKit简介
-公司针对国外市场，新成立了一个VoIP类型的项目---OFree，能与iOS的CallKit很好的结合，在这里记录一下接入CallKit的过程。
+# 直播间横屏技术方案
 
-苹果在WWDC 2016发布了iOS 10的新框架CallKit，它允许开发者在VoIP类型APP整合系统原生语音界面，以获得更好的用户体验。接入CallKit后，APP里面的通话会被写入系统通话记录，而且APP通话时的权限比一般VoIP的APP权限要高。
-*****
-***敏感代码已删除或做混淆处理。***
-*****
-## 二、原理
-### 1、呼入
-#### 来电
-![Image_2](/media/image/ios_callkit_2.png)
+### 一、背景
+目前Likee直播间已支持PC推流直播，但只支持竖屏播放，导致观看体验不佳，故需要把横屏模式加上。
+### 二、面临的问题
+1、只有两天开发时间，时间紧迫；
+2、屏幕切换时存在UI异常风险；
+3、横屏模式需要应用全局支持横屏方向，存在影响其他业务风险；
+### 三、方案
+#### 1、切换横屏入口的显示（加开关）
+joinChannel/joinGroup成功 -&gt; roomType ==&nbsp;BSRoomType_PCRoom -&gt; 判断开关 -&gt; 显示入口
 
-1.OFree接收到服务器的来电信息（后台时VoIP Push）；
-2.创建CXCallUpdate对象记录来电信息，并记录该通话唯一标识；
-3.通过CXProvider对象把来电信息通知系统；
-4.系统接收到来电信息后显示原生来电UI。
+#### 2、横竖屏切换初步方案
+##### 1.项目配置：
 
-#### 响应来电
-![Image_3](/media/image/ios_callkit_3.png)
 
-1.用户在原生来电UI上点击接听按钮（或挂断按钮）；
-2.系统把动作封装成CXAnswerCallAction，通过CXProvider的Delegate回调到OFree；
-3.OFree收到回调后会开始配置mediasdk，调整UI等操作，最后开始通话。
-
-#### 结束来电
-![Image_4](/media/image/ios_callkit_4.png)
-
-1.OFree在前台时，用户点击挂断按钮；
-2.创建CXTransaction对象，用于包装挂断动作CXEndCallAction（包含该通话唯一标识）；
-3.通过CXCallController对象把挂断动作通知系统；
-4.系统成功挂断该通话后，通过CXProvider的Delegate回调到OFree；
-5.OFree收到回调后会开始释放mediasdk（这里要注意释放顺序，不能在系统回调前把sdk释放掉），调整UI等操作。
-
-### 2、呼出
-![Image_5](/media/image/ios_callkit_5.png)
-
-1.用户在OFree呼出电话；
-2.创建CXTransaction对象，用于包装呼出动作CXStartCallAction（包含该通话唯一标识、呼出号码等信息）；
-3.通过CXCallController对象把呼出动作通知系统；
-4.系统成功呼出该通话后，通过CXProvider的Delegate回调到OFree；
-5.OFree收到回调后会开始配置mediasdk，调整UI等操作，最后开始通话。
-
-## 三、OFree如何接入
-### 1、mediasdk做兼容
-1.系统资源申请成功后再配置mediasdk；
-2.等系统资源释放后再释放mediasdk。
-
-为满足以上两点，mediasdk开放了下面几个接口，在CallKit模式下，等系统回调后再做mediasdk配置、激活、释放等操作  
-
+在AppDelegate里重写方法：
 ```
-// In CallKit, it should be called by `perform Answer/start CallAction`
-bool configAudio();
-
-// In CallKit, it should be Called by `didActivateAudioSession`
-bool startAudio();
-
-// In CallKit, it should be Called by `didDeactivateAudioSession`
-void stopAudio();
-
-// In CallKit, it should be Called by `performEndCallAction`
-void releaseAudio();
-
-```
-### 2、OFree在前台状态
-
-1.在OFree项目中添加`ProviderDelegate`对象，作为与CallKit通信的桥梁；
-
-2.OFree在前台，并且linkd正常连接，`CallController`负责监听来电拓传；
-
-3.接收到来电拓传后，初始化mediasdk，并通过`ProviderDelegate`对象通知系统，触发系统来电页面，并监听系统回调；
-
-4.系统回调`- provider:performAnswerCallAction:`时，调整OFree的来电UI；
-
-5.系统回调`- provider:didActivateAudioSession:`时，配置mediasdk音频参数`configAudio()`，并激活音频通信`startAudio()`；
-
-6.用户点击挂断或者对方点击挂断，通过`ProviderDelegate`对象通知系统通话结束，并监听系统回调；
-
-7.系统回调`- provider:performEndCallAction:`后，释放mediasdk音频资源`releaseAudio()`，释放mediasdk；
-
-调用时序如下：
-
-```
-// 来电
-2018-05-10 20:05:58.640136+0800 BigoOfree[19394:8610838] [I][CallKit] handleIncomingCall 
-2018-05-10 20:05:58.725955+0800 BigoOfree[19394:8610838] [I][CallKit] unprepareSDK
-2018-05-10 20:05:58.726996+0800 BigoOfree[19394:8610627] [V][CallKit] prepareSDK
-2018-05-10 20:06:02.327572+0800 BigoOfree[19394:8610627] [I][CallKit] performAnswerCallAction
-2018-05-10 20:06:02.892451+0800 BigoOfree[19394:8610627] [I][CallKit] didActivateAudioSession
-2018-05-10 20:06:03.087589+0800 BigoOfree[19394:8610628] [I][CallKit] configAudio
-2018-05-10 20:06:03.240767+0800 BigoOfree[19394:8610627] [I][CallKit] startAudio
-// 挂断
-2018-05-10 20:06:13.660428+0800 BigoOfree[19394:8610838] [I][CallKit] endCallWithCompletion
-2018-05-10 20:06:13.680038+0800 BigoOfree[19394:8610838] [I][CallKit] performEndCallAction
-2018-05-10 20:06:13.798381+0800 BigoOfree[19394:8610628] [I][CallKit] releaseAudio
-2018-05-10 20:06:13.799067+0800 BigoOfree[19394:8610838] [I][CallKit] unprepareSDK
-2018-05-10 20:06:14.392857+0800 BigoOfree[19394:8610850] [I][CallKit] didDeactivateAudioSession
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    UIViewController *topViewController = [BaseViewController bl_findTopMostViewController];
+    if (topViewController && [topViewController isKindOfClass:NSClassFromString(@"BVLiveLandscapeViewController")]) {
+        return topViewController.supportedInterfaceOrientations;
+    }
+    return UIInterfaceOrientationMaskPortrait;
+}
 ```
 
-### 3、OFree在后台状态（应用被杀掉、手机锁屏）
-#### VoIP Push
-请看[VoIP Push](http://jpache.com/2016/03/18/iOS-VoIP-VoIP-Push-%E5%BC%80%E5%8F%91%E9%9B%86%E6%88%90/)介绍
-
-OFree接收到VoIP Push后，如果应用未被完全kill掉，应用则被唤醒，
-若被完全kill掉，AppDelegate的`- application:didFinishLaunchingWithOptions:`会被调起，
-linkd正常登录后接收到来电拓传，这时候会走在前台状态的流程，系统通话页面会被呼起。
-
-OFree在接收到VoIP Push后的调用时序如下：
-
-![OFree在接收到VoIP Push后的调用时序](/media/image/ios_callkit_6.png)
-
-## 四、风险评估
-（风险从高到低排序）
-#### 1.mediasdk释放问题
-CallKit模式下mediasdk依赖系统的回调，如果mediasdk没被正常释放，会影响到下一次通话，所以code review要更加彻底，稳定性测试上要更加严格
-
-#### 2.VoIP Push延迟问题
-目前在内测版中，VoIP存在一定的延迟，容易导致超时。
-
-#### 3.优化OFree启动速度
-OFree被杀掉后台，收到VoIP Push后会开始启动，如果启动速度太慢会影响用户体验
-
-#### 4.异常处理
-要处理好勿扰模式，被其他电话打断等异常处理（与系统电话及其他接入CallKit应用同样优先级，但不会直接被打断，用户可选择接听。）
-
-## 五、注意点
-### 1、CallKit的通话中UI
-通话接通后，在非锁屏状态下，会跳转到OFree的通话页面
-在锁屏状态下，会直接显示系统通话页面
-
-### 2、点击系统通话记录无法跳转
-接入CallKit后，通话信息会同步到系统的通话记录里面，点击OFree对应的通话记录后，正常情况下会跳转到OFree并触发以下delegate：
-
+##### 2.竖屏转横屏：
+新建一个支持横屏的BVLiveLandscapeViewController并重写UIViewController的方法：
 ```
-- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler {
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskLandscapeRight | UIInterfaceOrientationMaskPortrait; // 这里加上竖屏，是因为横屏转竖屏时，需要把当前vc先转过来，后面会讲到
+}
+
+- (BOOL)shouldAutorotate {
     return YES;
 }
 ```
-
-但是我遇到了点击通话记录后无法跳转到OFree的情况。原因是`CXHandle`的type设置成了`CXHandleTypeGeneric`，但是`CXProviderConfiguration`的`supportedHandleTypes`并没有包含`CXHandleTypeGeneric`，所以初始化配置时加上该类型即可。
+从竖屏vc（`BSWatchLiveShowViewController`）旋转时，初始化横屏vc（`BVLiveLandscapeViewController`），并把竖屏vc当前持有的`BLLiveRoomAudienceSession`传递给横屏vc。然后在当前navigationController的子vc中，把竖屏vc替换成横屏vc（原竖屏vc会销毁）。
 
 ```
-+ (CXProviderConfiguration *)providerConfiguration API_AVAILABLE(ios(10.0)) {
-    static dispatch_once_t onceToken;
-    static CXProviderConfiguration *config = nil;
-    dispatch_once(&onceToken, ^{
-        config = [[CXProviderConfiguration alloc] initWithLocalizedName:@"OFree"];
-        config.supportedHandleTypes = [NSSet setWithObjects:@(CXHandleTypeGeneric), @(CXHandleTypePhoneNumber), nil];
-    });
-    return config;
+- (void)switchToLandscapeView {
+    BVLiveLandscapeViewController *viewController = [[BVLiveLandscapeViewController alloc] initWithAudienceSession:self.audienceSession];
+    
+    NSMutableArray *viewControllers = [[NSMutableArray alloc] initWithArray:self.navigationController.viewControllers];
+    [viewControllers removeObject:self];
+    [viewControllers addObject:viewController];
+    [self.navigationController setViewControllers:viewControllers animated:YES];
+    
+    self.audienceSession = nil;
 }
 ```
 
+横屏vc初始化videoView，并调用session的方法传递给mediasdk（`[self.audienceSession changeRemoteViewForGroup:self.videoView];`）
 
-## 六、参考
-[官方文档](https://developer.apple.com/documentation/callkit?language=objc)
-[官方Demo](https://developer.apple.com/videos/play/wwdc2016/230/)
+##### 3.横屏转竖屏：
+正常情况下，从横屏转竖屏时，新的竖屏vc会被初始化。而竖屏vc的部分子view初始化时会通过`[[UIScreen mainScreen] bounds].size`取当前屏幕的size布局frame，但是此时的屏幕状态还是横屏状态，所以取出来的屏幕size是不对的，导致旋转后的vc的UI元素会出现错乱。
+
+***
+为了避免UI元素出现错乱的问题，目前有三种方案：
+
+(1)子view全改为AutoLayout布局（工时不允许，放弃）
+(2)子view补充autoresizingMask属性（工时不允许，放弃）
+(3)横屏vc先转成竖屏，再跳转真正的竖屏vc（鉴于当前横屏vc的UI元素比较简单，且工时紧迫，现采用这种临时方案，若后面要丰富横屏模式的内容，估计还是需要采用上面两种方案。）
+***
+
+在用户点击恢复竖屏的按钮时，通过`[self setOrientation:UIInterfaceOrientationPortrait];`设置当前vc为竖屏状态，然后重写UIViewController的方法监听旋转进度：
+```
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
+    
+    self.rt_navigationController.view.backgroundColor = [UIColor blackColor]; // 解决旋转时view的空隙白色的问题
+    
+    [coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        // Place code here to perform animations during the rotation.
+        // You can pass nil or leave this block empty if not necessary.
+    } completion:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        // Code here will execute after the rotation has finished.
+        // Equivalent to placing it in the deprecated method -[didRotateFromInterfaceOrientation:]
+        
+        self.rt_navigationController.view.backgroundColor = [UIColor whiteColor]; // 恢复原背景色
+        
+        if (self.isUserClickedToPortraite) {
+            [self jumpToPortraitViewController]; // 旋转完成，判断是用户触发的，则跳转到竖屏vc
+        } 
+    }];
+}
+```
+#### 四、异常case
+##### 1、旋转时白底
+重写UIViewController的方法监听旋转进度，在执行旋转前把`BVRootNavigationController`的背景色设为黑色，旋转完成后恢复为原来的白色，`self.rt_navigationController.view.backgroundColor = [UIColor blackColor];`
+##### 2、横屏转竖屏视频闪烁一下
+原因是把新的videoView设置到mediasdk时，mediasdk把画面渲染在新的videoView上会卡顿一下。目前的做法是，在新建竖屏vc时，会把当前的videoView传递到竖屏vc，在竖屏vc重新布局约束。
+##### 3、横屏转竖屏时旋转时画面变形
+原因是mediasdk识别到方向改变时，会修改渲染方向，此时画面比例不对画面会有拉伸。目前的做法是横屏状态下videoView写死16:9比例。
+##### 4、旋屏时视频过渡不自然
+转场之前先把videoView改为新的vc大小
+```
+//模拟横屏video展示状态，圆滑的过渡到横屏
+    [self.videoView mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(self.watchLiveView);
+    }];
+```
+##### 5、屏蔽手机自动旋转
+前面为了能手动把横屏转成竖屏，在supportedInterfaceOrientations方法里添加了竖屏的支持，这会导致应用会随系统自动切换方向，而我们是希望能屏蔽自动切换方向，目前的做法是维护一个标志位，在需要手动把横屏转成竖屏时再把标志位打开：
+```
+- (BOOL)shouldAutorotate {
+    return self.shouldRotate;
+}
+
+- (void)setOrientation:(UIInterfaceOrientation)orientation {   
+    self.shouldRotate = YES;
+    [super setOrientation:orientation];
+    self.shouldRotate = NO;
+}
+```
+##### 6、启动页横屏了
+![c5e1eb0cc92e07901a9b34c2354a9634.png](evernotecid://B3EB39CD-D5CA-4304-B017-DED874D7F245/appyinxiangcom/10739293/ENResource/p1855)
+原来的做法在项目的General里选中 “Landscape Left” 和 “Landscape Right"，这会导致启动页横屏，目前是不勾选General里的横屏选项，而在AppDelegate里重写，也能达到一样的效果：
+
+```
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+
+}
+```
+
+>Discussion
+
+>This method returns the total set of interface orientations supported by the app. When determining whether to rotate a particular view controller, the orientations returned by this method are intersected with the orientations supported by the root view controller or topmost presented view controller. The app and view controller must agree before the rotation is allowed.
+
+>If you do not implement this method, the app uses the values in the UIInterfaceOrientation key of the app’s Info.plist as the default interface orientations.
+
+
+##### 7、`[UIDevice currentDevice].orientation`获得的方向不对
+在一些极端情况，如从竖屏转横屏时，把设备迅速摆正，此时偶现`[UIDevice currentDevice].orientation`获得的方向不对。目前的做法是不依赖`[UIDevice currentDevice].orientation`，而是自己维护一个状态。
+
+##### 8、崩溃
+UIAlertController加了一个分类，重写了shouldAutorotate
+```
+2019-12-25 20:15:51.180535+0800 LIKE[894:136992] *** Terminating app due to uncaught exception 'UIApplicationInvalidInterfaceOrientation', reason: 'Supported orientations has no common orientation with the application, and [UIAlertController shouldAutorotate] is returning YES'
+*** First throw call stack:
+(0x1a0fb098c 0x1a0cd90a4 0x1a0ea6054 0x1a49ca8cc 0x1a49cae14 0x1a49cb450 0x1a49b7cb8 0x1a543f048 0x1a54331d4 0x1a128830c 0x1a54330d8 0x1a54419c4 0x1a4615ec8 0x1a48d69b4 0x1a48d44f8 0x1a4fc6b98 0x1a4fb67c0 0x1a4fe6594 0x1a0f2dc48 0x1a0f28b34 0x1a0f29100 0x1a0f288bc 0x1aad93328 0x1a4fbd6d4 0x104f97f30 0x1a0db3460)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+```
